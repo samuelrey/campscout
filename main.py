@@ -1,7 +1,7 @@
 from contextlib import asynccontextmanager
 from camply.providers import RecreationDotGov, ReserveCalifornia
 from fastapi import FastAPI, HTTPException
-from models import Campground, Scout
+from models import Campground, CreateScoutRequest, Scout
 import uuid
 
 campgrounds: dict[str, Campground] = {}   # in-memory storage
@@ -12,7 +12,7 @@ async def lifespan(app: FastAPI):
     providers = [RecreationDotGov(), ReserveCalifornia()]
     for prov in providers:
         response = prov.find_campgrounds(search_string="", state="CA")
-        campgrounds.update({r.facility_id: r for r in response})
+        campgrounds.update({str(r.facility_id): r for r in response})
     yield
 
 app = FastAPI(lifespan=lifespan)
@@ -21,14 +21,8 @@ app = FastAPI(lifespan=lifespan)
 async def root():
     return {"message": "hello world"}
 
-# @app.post("/campground/{name}")
-# def add_campground(name: str):
-#     id = uuid.uuid4()
-#     campgrounds[id] = Campground(id=id, name=name)
-#     return {"campground": campgrounds[id]}
-    
 @app.get("/campground/{id}")
-def get_campground(id: uuid.UUID):
+def get_campground(id: str):
     if id not in campgrounds:
         raise HTTPException(status_code=404, detail="Campground not found.")
     return {"campground": campgrounds[id]}
@@ -37,17 +31,13 @@ def get_campground(id: uuid.UUID):
 def get_campgrounds():
     return {"campgrounds": campgrounds}
 
-@app.delete("/campground/{id}")
-def delete_campground(id: uuid.UUID):
-    if id not in campgrounds:
-        raise HTTPException(status_code=404, detail="Campground not found.")
-    del campgrounds[id]
-    return {"result": f"Campground {id} deleted."}
-
 @app.post("/scout")
-def add_scout(scout: Scout):
-    if scout.id in scouts:
-        raise HTTPException(status_code=400, detail="Scout already exists.")
+def add_scout(request: CreateScoutRequest):
+    scout = Scout(
+        id=uuid.uuid4(), 
+        campground_id=request.campground_id, 
+        start_date=request.start_date, 
+        end_date=request.end_date)
     scouts[scout.id] = scout
     return scout
 

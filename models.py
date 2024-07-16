@@ -11,9 +11,13 @@ class Campground(BaseModel):
     map_id: Optional[str]
     coordinates: Optional[str]
 
+class CreateScoutRequest(BaseModel):
+    campground_id: str
+    start_date: datetime.date
+    end_date: datetime.date
+
 class Scout(BaseModel):
     id: uuid.UUID
-    user_id: uuid.UUID
-    campground_id: uuid.UUID
+    campground_id: str
     start_date: datetime.date
     end_date: datetime.date

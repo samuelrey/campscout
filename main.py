@@ -1,20 +1,31 @@
+from contextlib import asynccontextmanager
+from camply.providers import RecreationDotGov, ReserveCalifornia
 from fastapi import FastAPI, HTTPException
 from models import Campground, Scout
 import uuid
 
-app = FastAPI()
-campgrounds: dict[uuid.UUID, Campground] = {}   # in-memory storage
+campgrounds: dict[str, Campground] = {}   # in-memory storage
 scouts: dict[uuid.UUID, Scout] = {}
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    providers = [RecreationDotGov(), ReserveCalifornia()]
+    for prov in providers:
+        response = prov.find_campgrounds(search_string="", state="CA")
+        campgrounds.update({r.facility_id: r for r in response})
+    yield
+
+app = FastAPI(lifespan=lifespan)
 
 @app.get("/")
 async def root():
     return {"message": "hello world"}
 
-@app.post("/campground/{name}")
-def add_campground(name: str):
-    id = uuid.uuid4()
-    campgrounds[id] = Campground(id=id, name=name)
-    return {"campground": campgrounds[id]}
+# @app.post("/campground/{name}")
+# def add_campground(name: str):
+#     id = uuid.uuid4()
+#     campgrounds[id] = Campground(id=id, name=name)
+#     return {"campground": campgrounds[id]}
     
 @app.get("/campground/{id}")
 def get_campground(id: uuid.UUID):

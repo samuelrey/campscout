@@ -1,15 +1,19 @@
 from contextlib import asynccontextmanager
-from camply.providers import RecreationDotGov, ReserveCalifornia
+from camply.providers import RecreationDotGov # , ReserveCalifornia
+from camply.search import SearchRecreationDotGov # , SearchReserveCalifornia
+from camply.containers import SearchWindow
 from fastapi import FastAPI, HTTPException
 from models import Campground, CreateScoutRequest, Scout
 import uuid
+
+
+providers = [RecreationDotGov()] # , ReserveCalifornia()]
 
 campgrounds: dict[str, Campground] = {}   # in-memory storage
 scouts: dict[uuid.UUID, Scout] = {}
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    providers = [RecreationDotGov(), ReserveCalifornia()]
     for prov in providers:
         response = prov.find_campgrounds(search_string="", state="CA")
         campgrounds.update({str(r.facility_id): r for r in response})
@@ -39,6 +43,10 @@ def add_scout(request: CreateScoutRequest):
         start_date=request.start_date, 
         end_date=request.end_date)
     scouts[scout.id] = scout
+    # after save to db, exec continuous search in separate thread
+    window = SearchWindow(start_date=scout.start_date, end_date=scout.end_date)
+    search = SearchRecreationDotGov(window, campgrounds=[int(scout.campground_id)])
+    print(search.get_matching_campsites())
     return scout
 
 @app.get("/scout/{id}")

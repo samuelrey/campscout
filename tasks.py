@@ -2,7 +2,6 @@ from camply.containers import SearchWindow
 from camply.notifications import AppriseNotifications
 from camply.search import SearchRecreationDotGov
 from models import Scout
-import os
 
 def send_scout(scout: Scout):
     window = SearchWindow(
@@ -17,7 +16,6 @@ def send_scout(scout: Scout):
 
     matches = search_provider.get_matching_campsites(
         continuous=True,
-        notification_provider=[notification_provider],
-        notify_first_try=True)
+        notification_provider=[notification_provider])
     
     print(matches)

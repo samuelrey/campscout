@@ -2,8 +2,9 @@ from contextlib import asynccontextmanager
 from camply.providers import RecreationDotGov # , ReserveCalifornia
 from camply.search import SearchRecreationDotGov # , SearchReserveCalifornia
 from camply.containers import SearchWindow
-from fastapi import FastAPI, HTTPException
+from fastapi import BackgroundTasks, FastAPI, HTTPException
 from models import Campground, CreateScoutRequest, Scout
+from tasks import send_scout
 import uuid
 
 
@@ -36,17 +37,17 @@ def get_campgrounds():
     return {"campgrounds": campgrounds}
 
 @app.post("/scout")
-def add_scout(request: CreateScoutRequest):
+async def add_scout(request: CreateScoutRequest, background_tasks: BackgroundTasks):
     scout = Scout(
         id=uuid.uuid4(), 
         campground_id=request.campground_id, 
         start_date=request.start_date, 
         end_date=request.end_date)
+    
+    background_tasks.add_task(send_scout, scout)
+
     scouts[scout.id] = scout
-    # after save to db, exec continuous search in separate thread
-    window = SearchWindow(start_date=scout.start_date, end_date=scout.end_date)
-    search = SearchRecreationDotGov(window, campgrounds=[int(scout.campground_id)])
-    print(search.get_matching_campsites())
+
     return scout
 
 @app.get("/scout/{id}")

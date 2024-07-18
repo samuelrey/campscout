@@ -1,7 +1,5 @@
 from contextlib import asynccontextmanager
 from camply.providers import RecreationDotGov # , ReserveCalifornia
-from camply.search import SearchRecreationDotGov # , SearchReserveCalifornia
-from camply.containers import SearchWindow
 from fastapi import BackgroundTasks, FastAPI, HTTPException
 from models import Campground, CreateScoutRequest, Scout
 from tasks import send_scout

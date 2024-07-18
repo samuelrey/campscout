@@ -17,5 +17,3 @@ def send_scout(scout: Scout):
     matches = search_provider.get_matching_campsites(
         continuous=True,
         notification_provider=[notification_provider])
-    
-    print(matches)

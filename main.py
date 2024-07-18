@@ -11,6 +11,7 @@ providers = [RecreationDotGov()] # , ReserveCalifornia()]
 campgrounds: dict[str, Campground] = {}   # in-memory storage
 scouts: dict[uuid.UUID, Scout] = {}
 
+# preloads campgrounds
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     for prov in providers:

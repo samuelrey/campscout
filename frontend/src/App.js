@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Box, FormControl, InputLabel, Select, MenuItem } from "@mui/material";
 
 function App() {
   return (
@@ -18,6 +19,16 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+        <Box>
+          <FormControl>
+            <InputLabel>Age</InputLabel>
+            <Select>
+              <MenuItem>Bibbidy</MenuItem>
+            </Select>
+          </FormControl>
+        </Box>
+      </body>
     </div>
   );
 }

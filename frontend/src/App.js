@@ -1,6 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-import { Box, FormControl, InputLabel, Select, MenuItem } from "@mui/material";
+import {
+  Box,
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem,
+  Button,
+} from "@mui/material";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
@@ -10,12 +17,12 @@ const today = dayjs();
 const tomorrow = dayjs().add(1, "day");
 
 function App() {
-  const [age, setAge] = useState("");
+  const [campground, setCampground] = useState("");
   const [startDate, setStartDate] = useState(today);
   const [endDate, setEndDate] = useState(tomorrow);
 
   const handleChange = (event) => {
-    setAge(event.target.value);
+    setCampground(event.target.value);
   };
 
   const handleStartDateChange = (event) => {
@@ -31,11 +38,11 @@ function App() {
       <header className="App-header" />
       <Box sx={{ minWidth: 120 }}>
         <FormControl fullWidth>
-          <InputLabel>Age</InputLabel>
-          <Select value={age} label="Age" onChange={handleChange}>
-            <MenuItem value={10}>Ten</MenuItem>
-            <MenuItem value={20}>Twenty</MenuItem>
-            <MenuItem value={30}>Thirty</MenuItem>
+          <InputLabel>Campground</InputLabel>
+          <Select value={campground} label="Campground" onChange={handleChange}>
+            <MenuItem value={"bass-lake"}>Bass Lake</MenuItem>
+            <MenuItem value={"donner-lake"}>Donner Lake</MenuItem>
+            <MenuItem value={"dorabelle"}>Dorabelle</MenuItem>
           </Select>
           <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DatePicker
@@ -58,6 +65,14 @@ function App() {
               onChange={handleEndDateChange}
             />
           </LocalizationProvider>
+          <Button
+            variant={"outlined"}
+            onSubmit={alert(
+              `You will receive alerts for available campsites at ${campground} between ${startDate} and ${endDate}`
+            )}
+          >
+            Subscribe
+          </Button>
         </FormControl>
       </Box>
     </div>

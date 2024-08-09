@@ -34,19 +34,22 @@ const SearchForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const result = await createCampscout(campground, startDate, endDate);
+            const result = await createCampscout(
+                campground,
+                startDate,
+                endDate
+            );
             if (result === "Success") {
-                alert("Success!")
+                alert("Success!");
             }
         } catch (error) {
             // something happened
         }
-    }
+    };
 
     return (
-        <>
-        <Box>
-            <FormControl fullWidth sx={{"margin-bottom":12}}>
+        <form onSubmit={handleSubmit}>
+            <FormControl fullWidth sx={{ "margin-bottom": 12 }}>
                 <InputLabel>Campground</InputLabel>
                 <Select
                     value={campground}
@@ -58,7 +61,8 @@ const SearchForm = () => {
                     <MenuItem value={"dorabelle"}>Dorabelle</MenuItem>
                 </Select>
             </FormControl>
-            <FormControl fullWidth sx={{"margin-bottom":12}}>
+
+            <FormControl fullWidth sx={{ "margin-bottom": 12 }}>
                 <DatePicker
                     label="Start Date"
                     openTo="month"
@@ -70,7 +74,8 @@ const SearchForm = () => {
                     }}
                 />
             </FormControl>
-            <FormControl fullWidth sx={{"margin-bottom":12}}>
+
+            <FormControl fullWidth sx={{ "margin-bottom": 12 }}>
                 <DatePicker
                     label="End Date"
                     openTo="month"
@@ -81,14 +86,11 @@ const SearchForm = () => {
                     onChange={handleEndDateChange}
                 />
             </FormControl>
-            <Button
-                variant={"outlined"}
-                onClick={handleSubmit}
-            >
+
+            <Button variant={"outlined"} type="submit">
                 Subscribe
             </Button>
-        </Box>
-        </>
+        </form>
     );
 };
 

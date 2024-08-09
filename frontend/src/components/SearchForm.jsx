@@ -9,6 +9,7 @@ import {
     Button,
 } from "@mui/material";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import createCampscout from "../services/campscout";
 
 const today = dayjs();
 const tomorrow = dayjs().add(1, "day");
@@ -29,6 +30,18 @@ const SearchForm = () => {
     const handleEndDateChange = (event) => {
         setEndDate(event);
     };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            const result = await createCampscout(campground, startDate, endDate);
+            if (result === "Success") {
+                alert("Success!")
+            }
+        } catch (error) {
+            // something happened
+        }
+    }
 
     return (
         <>
@@ -70,11 +83,7 @@ const SearchForm = () => {
             </FormControl>
             <Button
                 variant={"outlined"}
-                onClick={() => {
-                    alert(
-                        `You will receive alerts for available campsites at ${campground} between ${startDate} and ${endDate}`
-                    );
-                }}
+                onClick={handleSubmit}
             >
                 Subscribe
             </Button>

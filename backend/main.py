@@ -1,6 +1,7 @@
 from contextlib import asynccontextmanager
 from camply.providers import RecreationDotGov # , ReserveCalifornia
 from fastapi import BackgroundTasks, FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from models import Campground, CreateScoutRequest, Scout
 from tasks import send_scout
 import uuid
@@ -16,10 +17,22 @@ scouts: dict[uuid.UUID, Scout] = {}
 async def lifespan(app: FastAPI):
     for prov in providers:
         response = prov.find_campgrounds(search_string="", state="CA")
-        campgrounds.update({str(r.facility_id): r for r in response})
+        campgrounds.update({str(r.facility_id): r for r in response}) # type: ignore
     yield
 
 app = FastAPI(lifespan=lifespan)
+
+origins = [
+    "http://localhost:3000", # make env variable
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 async def root():

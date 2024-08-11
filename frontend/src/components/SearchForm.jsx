@@ -1,13 +1,19 @@
 import React, { useEffect, useState } from "react";
+import dayjs from "dayjs";
 import { Button } from "@mui/material";
 import { getCampgrounds, createCampscout } from "../services/campscout";
 import CampgroundSelect from "./CampgroundSelect";
 import DaterangeSelect from "./DateRangeSelect";
 
+const today = dayjs();
+
 const SearchForm = () => {
     const [campgrounds, setCampgrounds] = useState([]);
-    const [selectedCampground, setSelectedCampground] = useState(null);
-    const [selectedDaterange, setSelectedDaterange] = useState(null);
+    const [selectedCampground, setSelectedCampground] = useState("");
+    const [daterange, setDaterange] = useState({
+        startDate: today,
+        endDate: today.add(1, "day"),
+    });
 
     useEffect(() => {
         const g = async () => {
@@ -23,7 +29,7 @@ const SearchForm = () => {
     };
 
     const handleSelectDaterange = (daterange) => {
-        setSelectedDaterange(daterange);
+        setDaterange(daterange);
     };
 
     const handleSubmit = async (e) => {
@@ -32,8 +38,8 @@ const SearchForm = () => {
         try {
             const result = await createCampscout(
                 selectedCampground,
-                selectedDaterange.startDate,
-                selectedDaterange.endDate
+                daterange.startDate,
+                daterange.endDate
             );
             if (result === "Success") {
                 alert("Success!");
@@ -46,10 +52,14 @@ const SearchForm = () => {
     return (
         <form onSubmit={handleSubmit}>
             <CampgroundSelect
+                selectedCampground={selectedCampground}
                 campgrounds={campgrounds}
                 onSelectCampground={handleSelectCampground}
             />
-            <DaterangeSelect onSelectDaterange={handleSelectDaterange} />
+            <DaterangeSelect
+                daterange={daterange}
+                onSelectDaterange={handleSelectDaterange}
+            />
 
             <Button variant={"outlined"} type="submit">
                 Subscribe

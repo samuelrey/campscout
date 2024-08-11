@@ -1,20 +1,10 @@
-import React, { useState } from "react";
-import dayjs from "dayjs";
+import React from "react";
 import { FormControl } from "@mui/material";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 
-const today = dayjs();
-const tomorrow = dayjs().add(1, "day");
-
-const DaterangeSelect = ({ onSelectDaterange }) => {
-    const [daterange, setDaterange] = useState({
-        startDate: today,
-        endDate: tomorrow,
-    });
-
+const DaterangeSelect = ({ daterange, onSelectDaterange }) => {
     const handleChange = (key, date) => {
         const newDaterange = { ...daterange, [key]: date };
-        setDaterange(newDaterange);
         onSelectDaterange(newDaterange);
     };
 
@@ -27,7 +17,7 @@ const DaterangeSelect = ({ onSelectDaterange }) => {
                     openTo="month"
                     views={["year", "month", "day"]}
                     disablePast={true}
-                    defaultValue={today}
+                    defaultValue={daterange.startDate}
                     onChange={(date) => {
                         handleChange("startDate", date);
                     }}
@@ -41,7 +31,7 @@ const DaterangeSelect = ({ onSelectDaterange }) => {
                     openTo="month"
                     views={["year", "month", "day"]}
                     disablePast={true}
-                    defaultValue={tomorrow}
+                    defaultValue={daterange.startDate.add(1, "day")}
                     minDate={daterange.startDate.add(1, "day")}
                     onChange={(date) => {
                         handleChange("endDate", date);

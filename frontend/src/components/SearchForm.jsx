@@ -1,17 +1,13 @@
 import React, { useEffect, useState } from "react";
-import dayjs from "dayjs";
-import { FormControl, Button } from "@mui/material";
-import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import { Button } from "@mui/material";
 import { getCampgrounds, createCampscout } from "../services/campscout";
 import CampgroundSelect from "./CampgroundSelect";
-
-const today = dayjs();
-const tomorrow = dayjs().add(1, "day");
+import DateRangeSelect from "./DateRangeSelect";
 
 const SearchForm = () => {
     const [campground, setCampground] = useState("");
-    const [startDate, setStartDate] = useState(today);
-    const [endDate, setEndDate] = useState(tomorrow);
+    const [startDate, setStartDate] = useState("");
+    const [endDate, setEndDate] = useState("");
     const [campgrounds, setCampgrounds] = useState([]);
 
     useEffect(() => {
@@ -23,14 +19,6 @@ const SearchForm = () => {
         };
         g();
     }, []);
-
-    const handleStartDateChange = (event) => {
-        setStartDate(event);
-    };
-
-    const handleEndDateChange = (event) => {
-        setEndDate(event);
-    };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -52,31 +40,7 @@ const SearchForm = () => {
     return (
         <form onSubmit={handleSubmit}>
             <CampgroundSelect campgrounds={campgrounds} />
-
-            <FormControl fullWidth sx={{ "margin-bottom": 12 }}>
-                <DatePicker
-                    label="Start Date"
-                    openTo="month"
-                    views={["year", "month", "day"]}
-                    disablePast={true}
-                    defaultValue={startDate}
-                    onChange={(newDate) => {
-                        handleStartDateChange(newDate);
-                    }}
-                />
-            </FormControl>
-
-            <FormControl fullWidth sx={{ "margin-bottom": 12 }}>
-                <DatePicker
-                    label="End Date"
-                    openTo="month"
-                    views={["year", "month", "day"]}
-                    disablePast={true}
-                    defaultValue={endDate}
-                    minDate={startDate.add(1, "day")}
-                    onChange={handleEndDateChange}
-                />
-            </FormControl>
+            <DateRangeSelect />
 
             <Button variant={"outlined"} type="submit">
                 Subscribe

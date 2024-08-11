@@ -2,10 +2,12 @@ from contextlib import asynccontextmanager
 from camply.providers import RecreationDotGov # , ReserveCalifornia
 from fastapi import BackgroundTasks, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+import logging
 from models import Campground, CreateScoutRequest, Scout
 from tasks import send_scout
 import uuid
 
+logger = logging.getLogger(__name__)
 
 providers = [RecreationDotGov()] # , ReserveCalifornia()]
 
@@ -50,6 +52,7 @@ def get_campgrounds():
 
 @app.post("/scout")
 async def add_scout(request: CreateScoutRequest, background_tasks: BackgroundTasks):
+    logger.info(f"Add Scout with the following request: {request}")
     scout = Scout(
         id=uuid.uuid4(), 
         campground_id=request.campground_id, 

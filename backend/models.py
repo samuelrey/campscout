@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 from typing import Optional
 from pydantic import BaseModel
 import uuid
@@ -13,11 +13,11 @@ class Campground(BaseModel):
 
 class CreateScoutRequest(BaseModel):
     campground_id: str
-    start_date: datetime.date
-    end_date: datetime.date
+    start_date: datetime
+    end_date: datetime
 
 class Scout(BaseModel):
     id: uuid.UUID
     campground_id: str
-    start_date: datetime.date
-    end_date: datetime.date
+    start_date: datetime
+    end_date: datetime

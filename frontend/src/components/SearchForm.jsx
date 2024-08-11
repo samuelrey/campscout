@@ -2,32 +2,38 @@ import React, { useEffect, useState } from "react";
 import { Button } from "@mui/material";
 import { getCampgrounds, createCampscout } from "../services/campscout";
 import CampgroundSelect from "./CampgroundSelect";
-import DateRangeSelect from "./DateRangeSelect";
+import DaterangeSelect from "./DateRangeSelect";
 
 const SearchForm = () => {
-    const [campground, setCampground] = useState("");
-    const [startDate, setStartDate] = useState("");
-    const [endDate, setEndDate] = useState("");
     const [campgrounds, setCampgrounds] = useState([]);
+    const [selectedCampground, setSelectedCampground] = useState(null);
+    const [selectedDaterange, setSelectedDaterange] = useState(null);
 
     useEffect(() => {
         const g = async () => {
             const result = await getCampgrounds();
             const data = await result.json();
-            console.log(data.campgrounds);
             setCampgrounds(data.campgrounds);
         };
         g();
     }, []);
+
+    const handleSelectCampground = (campgroundId) => {
+        setSelectedCampground(campgroundId);
+    };
+
+    const handleSelectDaterange = (daterange) => {
+        setSelectedDaterange(daterange);
+    };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
 
         try {
             const result = await createCampscout(
-                campground,
-                startDate,
-                endDate
+                selectedCampground,
+                selectedDaterange.startDate,
+                selectedDaterange.endDate
             );
             if (result === "Success") {
                 alert("Success!");
@@ -39,8 +45,11 @@ const SearchForm = () => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <CampgroundSelect campgrounds={campgrounds} />
-            <DateRangeSelect />
+            <CampgroundSelect
+                campgrounds={campgrounds}
+                onSelectCampground={handleSelectCampground}
+            />
+            <DaterangeSelect onSelectDaterange={handleSelectDaterange} />
 
             <Button variant={"outlined"} type="submit">
                 Subscribe

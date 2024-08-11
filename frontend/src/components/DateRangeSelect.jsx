@@ -6,20 +6,21 @@ import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 const today = dayjs();
 const tomorrow = dayjs().add(1, "day");
 
-const DateRangeSelect = () => {
+const DaterangeSelect = ({ onSelectDaterange }) => {
     const [daterange, setDaterange] = useState({
         startDate: today,
         endDate: tomorrow,
     });
 
     const handleChange = (key, date) => {
-        setDaterange({ ...daterange, [key]: date });
+        const newDaterange = { ...daterange, [key]: date };
+        setDaterange(newDaterange);
+        onSelectDaterange(newDaterange);
     };
-    console.log(daterange);
 
     return (
         <>
-            <FormControl fullWidth sx={{ "margin-bottom": 12 }}>
+            <FormControl fullWidth sx={{ marginBottom: 2 }}>
                 <DatePicker
                     key="startDate"
                     label="Start Date"
@@ -33,7 +34,7 @@ const DateRangeSelect = () => {
                 />
             </FormControl>
 
-            <FormControl fullWidth sx={{ "margin-bottom": 12 }}>
+            <FormControl fullWidth sx={{ marginBottom: 2 }}>
                 <DatePicker
                     key="endDate"
                     label="End Date"
@@ -51,4 +52,4 @@ const DateRangeSelect = () => {
     );
 };
 
-export default DateRangeSelect;
+export default DaterangeSelect;

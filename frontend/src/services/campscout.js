@@ -29,7 +29,7 @@ export const createCampscout = async (campgrounds, startDate, endDate) => {
         });
         return response
     } catch (error) {
-        console.log(`Campscout API error: ${error}`);
+        console.log(`Error creating scout: ${error}`);
         throw error
     }
 };

@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import { FormControl, InputLabel, Select, MenuItem } from "@mui/material";
 
-const CampgroundSelect = ({ campgrounds }) => {
+const CampgroundSelect = ({ campgrounds, onSelectCampground }) => {
     const [selectedCampground, setSelectedCampground] = useState("");
 
     const handleChange = (e) => {
         setSelectedCampground(e.target.value);
+        onSelectCampground(e.target.value);
     };
 
     return (
-        <FormControl fullWidth sx={{ "margin-bottom": 12 }}>
+        <FormControl fullWidth sx={{ marginBottom: 2 }}>
             <InputLabel>Campground</InputLabel>
             <Select
                 value={selectedCampground}

@@ -18,7 +18,6 @@ const CampgroundSelect = ({ campgrounds, onSelectCampground }) => {
                 onChange={handleChange}
             >
                 {campgrounds.map(({ facility_id, facility_name }) => (
-                    // campgrounds.map not a function. maybe make CampgroundSelector
                     <MenuItem key={facility_id} value={facility_id}>
                         {facility_name}
                     </MenuItem>

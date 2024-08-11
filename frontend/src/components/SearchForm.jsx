@@ -1,14 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import dayjs from "dayjs";
-import {
-    FormControl,
-    InputLabel,
-    Select,
-    MenuItem,
-    Button,
-} from "@mui/material";
+import { FormControl, Button } from "@mui/material";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
-import createCampscout from "../services/campscout";
+import { getCampgrounds, createCampscout } from "../services/campscout";
+import CampgroundSelect from "./CampgroundSelect";
 
 const today = dayjs();
 const tomorrow = dayjs().add(1, "day");
@@ -17,10 +12,17 @@ const SearchForm = () => {
     const [campground, setCampground] = useState("");
     const [startDate, setStartDate] = useState(today);
     const [endDate, setEndDate] = useState(tomorrow);
+    const [campgrounds, setCampgrounds] = useState([]);
 
-    const handleChange = (event) => {
-        setCampground(event.target.value);
-    };
+    useEffect(() => {
+        const g = async () => {
+            const result = await getCampgrounds();
+            const data = await result.json();
+            console.log(data.campgrounds);
+            setCampgrounds(data.campgrounds);
+        };
+        g();
+    }, []);
 
     const handleStartDateChange = (event) => {
         setStartDate(event);
@@ -32,6 +34,7 @@ const SearchForm = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+
         try {
             const result = await createCampscout(
                 campground,
@@ -48,18 +51,7 @@ const SearchForm = () => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <FormControl fullWidth sx={{ "margin-bottom": 12 }}>
-                <InputLabel>Campground</InputLabel>
-                <Select
-                    value={campground}
-                    label="Campground"
-                    onChange={handleChange}
-                >
-                    <MenuItem value={"bass-lake"}>Bass Lake</MenuItem>
-                    <MenuItem value={"donner-lake"}>Donner Lake</MenuItem>
-                    <MenuItem value={"dorabelle"}>Dorabelle</MenuItem>
-                </Select>
-            </FormControl>
+            <CampgroundSelect campgrounds={campgrounds} />
 
             <FormControl fullWidth sx={{ "margin-bottom": 12 }}>
                 <DatePicker

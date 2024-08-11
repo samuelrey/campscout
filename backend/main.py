@@ -48,7 +48,7 @@ def get_campground(id: str):
 
 @app.get("/campground")
 def get_campgrounds():
-    return {"campgrounds": campgrounds}
+    return {"campgrounds": list(campgrounds.values())[:10]}
 
 @app.post("/scout")
 async def add_scout(request: CreateScoutRequest, background_tasks: BackgroundTasks):

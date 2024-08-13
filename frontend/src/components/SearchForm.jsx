@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import dayjs from "dayjs";
-import { Button } from "@mui/material";
+import { Alert, AlertTitle, Button } from "@mui/material";
 import { getCampgrounds, createCampscout } from "../services/campscout";
 import CampgroundSelect from "./CampgroundSelect";
 import DaterangeSelect from "./DateRangeSelect";
@@ -14,14 +14,19 @@ const SearchForm = () => {
         startDate: today,
         endDate: today.add(1, "day"),
     });
+    const [error, setError] = useState(null);
 
     useEffect(() => {
-        const g = async () => {
-            const result = await getCampgrounds();
-            const data = await result.json();
-            setCampgrounds(data.campgrounds);
+        const fetchCampgrounds = async () => {
+            try {
+                const result = await getCampgrounds();
+                const data = await result.json();
+                setCampgrounds(data.campgrounds);
+            } catch (error) {
+                setError("Failed to get campgrounds.");
+            }
         };
-        g();
+        fetchCampgrounds();
     }, []);
 
     const handleSelectCampground = (campground) => {
@@ -42,12 +47,13 @@ const SearchForm = () => {
                 daterange.endDate
             );
         } catch (error) {
-            // something happened
+            setError("Failed to create scout.");
         }
     };
 
     return (
         <form onSubmit={handleSubmit}>
+            {error !== null && <Alert severity="error">{error}</Alert>}
             <CampgroundSelect
                 campgrounds={campgrounds}
                 onSelectCampground={handleSelectCampground}

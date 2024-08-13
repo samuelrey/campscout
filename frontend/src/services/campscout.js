@@ -4,9 +4,14 @@ export const getCampgrounds = async () => {
     const preparedUrl = `${campscoutUrl}/campground`
     try {
         const response = await fetch(preparedUrl)
+
+        if (!response.ok) {
+            throw new Error(`[${response.status}]: ${response.statusText}`)
+        }
+
         return response
     } catch (error) {
-        console.log(`Error retrieving campgrounds: ${error}`)
+        console.log(`Error retrieving campgrounds: ${error.message}`)
         throw error
     }
 }
@@ -27,9 +32,14 @@ export const createCampscout = async (campgrounds, startDate, endDate) => {
             },
             body: body
         });
+
+        if (!response.ok) {
+            throw new Error(`[${response.status}]: ${response.statusText}`)
+        }
+
         return response
     } catch (error) {
-        console.log(`Error creating scout: ${error}`);
+        console.log(`Error creating scout: ${error.message}`);
         throw error
     }
 };

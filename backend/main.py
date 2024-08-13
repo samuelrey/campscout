@@ -1,4 +1,5 @@
 from contextlib import asynccontextmanager
+import datetime
 from camply.providers import RecreationDotGov # , ReserveCalifornia
 from fastapi import BackgroundTasks, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -53,11 +54,17 @@ def get_campgrounds():
 @app.post("/scout")
 async def add_scout(request: CreateScoutRequest, background_tasks: BackgroundTasks):
     logger.info(f"Add Scout with the following request: {request}")
+    campground = campgrounds[request.campground_id]
+    if campground is None:
+        raise HTTPException(status_code=404, detail="Campground not found.")
+    
     scout = Scout(
         id=uuid.uuid4(), 
-        campground_id=request.campground_id, 
+        campground_id=campground.facility_id, 
+        facility_name=campground.facility_name,
         start_date=request.start_date, 
-        end_date=request.end_date)
+        end_date=request.end_date,
+        created_at=datetime.datetime.now())
     
     background_tasks.add_task(send_scout, scout)
 

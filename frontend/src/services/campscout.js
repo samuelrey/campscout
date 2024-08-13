@@ -43,3 +43,19 @@ export const createCampscout = async (campgrounds, startDate, endDate) => {
         throw error
     }
 };
+
+export const getCampscouts = async () => {
+    const preparedUrl = `${campscoutUrl}/scout`
+    try {
+        const response = await fetch(preparedUrl)
+
+        if (!response.ok) {
+            throw new Error(`[${response.status}]: ${response.statusText}`)
+        }
+
+        return response
+    } catch (error) {
+        console.log(`Error fetching scouts: ${error.message}`);
+        throw error
+    }
+}

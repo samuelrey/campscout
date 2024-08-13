@@ -19,5 +19,7 @@ class CreateScoutRequest(BaseModel):
 class Scout(BaseModel):
     id: uuid.UUID
     campground_id: str
+    facility_name: str
     start_date: datetime
     end_date: datetime
+    created_at: datetime

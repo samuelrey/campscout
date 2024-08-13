@@ -1,4 +1,5 @@
 import "./App.css";
+import ScoutList from "./components/ScoutList";
 import SearchForm from "./components/SearchForm";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
         <div className="App">
             <header className="App-header" />
             <SearchForm />
+            <ScoutList />
         </div>
     );
 }

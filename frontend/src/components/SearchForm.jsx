@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import dayjs from "dayjs";
-import { Alert, AlertTitle, Button } from "@mui/material";
+import { Alert, Button, CircularProgress } from "@mui/material";
 import { getCampgrounds, createCampscout } from "../services/campscout";
 import CampgroundSelect from "./CampgroundSelect";
 import DaterangeSelect from "./DateRangeSelect";
@@ -15,6 +15,7 @@ const SearchForm = () => {
         endDate: today.add(1, "day"),
     });
     const [error, setError] = useState(null);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchCampgrounds = async () => {
@@ -24,6 +25,8 @@ const SearchForm = () => {
                 setCampgrounds(data.campgrounds);
             } catch (error) {
                 setError("Failed to get campgrounds.");
+            } finally {
+                setLoading(false);
             }
         };
         fetchCampgrounds();
@@ -39,6 +42,7 @@ const SearchForm = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setLoading(true);
 
         try {
             const result = await createCampscout(
@@ -48,12 +52,19 @@ const SearchForm = () => {
             );
         } catch (error) {
             setError("Failed to create scout.");
+        } finally {
+            setLoading(false);
         }
     };
+
+    if (loading && !campgrounds) {
+        return <CircularProgress />;
+    }
 
     return (
         <form onSubmit={handleSubmit}>
             {error !== null && <Alert severity="error">{error}</Alert>}
+            {loading && <CircularProgress />}
             <CampgroundSelect
                 campgrounds={campgrounds}
                 onSelectCampground={handleSelectCampground}

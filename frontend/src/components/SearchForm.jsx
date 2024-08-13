@@ -24,8 +24,8 @@ const SearchForm = () => {
         g();
     }, []);
 
-    const handleSelectCampground = (campgroundId) => {
-        setSelectedCampground(campgroundId);
+    const handleSelectCampground = (campground) => {
+        setSelectedCampground(campground);
     };
 
     const handleSelectDaterange = (daterange) => {
@@ -37,13 +37,10 @@ const SearchForm = () => {
 
         try {
             const result = await createCampscout(
-                selectedCampground,
+                selectedCampground.id,
                 daterange.startDate,
                 daterange.endDate
             );
-            if (result === "Success") {
-                alert("Success!");
-            }
         } catch (error) {
             // something happened
         }
@@ -52,7 +49,6 @@ const SearchForm = () => {
     return (
         <form onSubmit={handleSubmit}>
             <CampgroundSelect
-                selectedCampground={selectedCampground}
                 campgrounds={campgrounds}
                 onSelectCampground={handleSelectCampground}
             />

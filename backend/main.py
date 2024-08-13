@@ -48,7 +48,7 @@ def get_campground(id: str):
 
 @app.get("/campground")
 def get_campgrounds():
-    return {"campgrounds": list(campgrounds.values())[:10]}
+    return {"campgrounds": list(campgrounds.values())}
 
 @app.post("/scout")
 async def add_scout(request: CreateScoutRequest, background_tasks: BackgroundTasks):
@@ -70,6 +70,10 @@ def get_scout(id: uuid.UUID):
     if id not in scouts:
         raise HTTPException(status_code=404, detail="Scout not found.")
     return {"scout": scouts[id]}
+
+@app.get("/scout")
+def get_scouts():
+    return {"scouts": list(scouts.values())}
 
 @app.delete("/scout/{id}")
 def delete_scout(id: uuid.UUID):

@@ -1,0 +1,3026 @@
+[
+    {
+        "facility_name": "Borrego Palm Canyon (sites 53-89)",
+        "recreation_area": "Anza-Borrego Desert SP",
+        "facility_id": "327",
+        "recreation_area_id": "2"
+    },
+    {
+        "facility_name": "Tamarisk Grove Campground",
+        "recreation_area": "Anza-Borrego Desert SP",
+        "facility_id": "329",
+        "recreation_area_id": "2"
+    },
+    {
+        "facility_name": "Vern Whitaker Horse Camp",
+        "recreation_area": "Anza-Borrego Desert SP",
+        "facility_id": "330",
+        "recreation_area_id": "2"
+    },
+    {
+        "facility_name": "Lower Blooms Creek (sites 103-138)",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "332",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Sequoia Group 1 & 2",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "333",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Sempervirens Campground (sites 157-188)",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "335",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Huckleberry Campground (sites 42-75)",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "336",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Wastahi Campground (sites 76-102)",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "337",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Sky Meadow Group 1 & 2",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "338",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Upper Blooms Creek (sites 139-156)",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "339",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Huckleberry Tent Cabins",
+        "recreation_area": "Big Basin Redwoods  SP Tent Cabins",
+        "facility_id": "340",
+        "recreation_area_id": "618"
+    },
+    {
+        "facility_name": "Group Camping",
+        "recreation_area": "Calaveras Big Trees SP",
+        "facility_id": "342",
+        "recreation_area_id": "5"
+    },
+    {
+        "facility_name": "North Grove Environmental",
+        "recreation_area": "Calaveras Big Trees SP",
+        "facility_id": "343",
+        "recreation_area_id": "5"
+    },
+    {
+        "facility_name": "North Grove (sites 1-26)",
+        "recreation_area": "Calaveras Big Trees SP",
+        "facility_id": "344",
+        "recreation_area_id": "5"
+    },
+    {
+        "facility_name": "North Grove (sites 27-59)",
+        "recreation_area": "Calaveras Big Trees SP",
+        "facility_id": "346",
+        "recreation_area_id": "5"
+    },
+    {
+        "facility_name": "North Grove (sites 60-74)",
+        "recreation_area": "Calaveras Big Trees SP",
+        "facility_id": "348",
+        "recreation_area_id": "5"
+    },
+    {
+        "facility_name": "Oak Hollow Campground",
+        "recreation_area": "Calaveras Big Trees SP",
+        "facility_id": "349",
+        "recreation_area_id": "5"
+    },
+    {
+        "facility_name": "Oak Hollow Environmental North",
+        "recreation_area": "Calaveras Big Trees SP",
+        "facility_id": "354",
+        "recreation_area_id": "5"
+    },
+    {
+        "facility_name": "Oak Hollow Environmental South",
+        "recreation_area": "Calaveras Big Trees SP",
+        "facility_id": "355",
+        "recreation_area_id": "5"
+    },
+    {
+        "facility_name": "Residence Cabin Area",
+        "recreation_area": "Calaveras Big Trees SP",
+        "facility_id": "356",
+        "recreation_area_id": "5"
+    },
+    {
+        "facility_name": "Anacapa (sites 101-127 & group sites)",
+        "recreation_area": "Carpinteria SB",
+        "facility_id": "357",
+        "recreation_area_id": "6"
+    },
+    {
+        "facility_name": "Santa Cruz (sites 201-244 & group sites)",
+        "recreation_area": "Carpinteria SB",
+        "facility_id": "358",
+        "recreation_area_id": "6"
+    },
+    {
+        "facility_name": "San Miguel (sites 401-460)",
+        "recreation_area": "Carpinteria SB",
+        "facility_id": "359",
+        "recreation_area_id": "6"
+    },
+    {
+        "facility_name": "Santa Rosa (sites 301-380)",
+        "recreation_area": "Carpinteria SB",
+        "facility_id": "360",
+        "recreation_area_id": "6"
+    },
+    {
+        "facility_name": "Arroyo Seco Trail Camp",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "361",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "Granite Springs Trail Group Camp",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "363",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "Granite Springs Trail Camp",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "364",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "Green Valley Campground (sites 22-85)",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "365",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "Green Valley Horse Camp (sites 1-15)",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "368",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "Los Vaqueros Group Horse Camp",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "369",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "Paso Picacho Campground & Cabins",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "370",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "Paso Picacho Group",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "374",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "Group Area",
+        "recreation_area": "El Capitan SB",
+        "facility_id": "375",
+        "recreation_area_id": "8"
+    },
+    {
+        "facility_name": "Lower Section (sites 1-28)",
+        "recreation_area": "El Capitan SB",
+        "facility_id": "376",
+        "recreation_area_id": "8"
+    },
+    {
+        "facility_name": "Middle Section (sites 29-91) & Anza Group)",
+        "recreation_area": "El Capitan SB",
+        "facility_id": "377",
+        "recreation_area_id": "8"
+    },
+    {
+        "facility_name": "Upper Section (sites 92-132) & Portola Group",
+        "recreation_area": "El Capitan SB",
+        "facility_id": "379",
+        "recreation_area_id": "8"
+    },
+    {
+        "facility_name": "City Hotel",
+        "recreation_area": "Columbia SHP Hotels and Cottages",
+        "facility_id": "402",
+        "recreation_area_id": "631"
+    },
+    {
+        "facility_name": "Fallon Hotel",
+        "recreation_area": "Columbia SHP Hotels and Cottages",
+        "facility_id": "403",
+        "recreation_area_id": "631"
+    },
+    {
+        "facility_name": "Cosmopolitan Hotel",
+        "recreation_area": "Cosmopolitan Hotel",
+        "facility_id": "404",
+        "recreation_area_id": "633"
+    },
+    {
+        "facility_name": "Ayala Cove Group Picnic Area",
+        "recreation_area": "Angel Island SP",
+        "facility_id": "405",
+        "recreation_area_id": "614"
+    },
+    {
+        "facility_name": "East Bay (sites 1-3)",
+        "recreation_area": "Angel Island SP",
+        "facility_id": "406",
+        "recreation_area_id": "614"
+    },
+    {
+        "facility_name": "West Garrison (sites 10 & Kayak)",
+        "recreation_area": "Angel Island SP",
+        "facility_id": "407",
+        "recreation_area_id": "614"
+    },
+    {
+        "facility_name": "Ridge (sites 4-6)",
+        "recreation_area": "Angel Island SP",
+        "facility_id": "408",
+        "recreation_area_id": "614"
+    },
+    {
+        "facility_name": "Sunrise (sites 7-9)",
+        "recreation_area": "Angel Island SP",
+        "facility_id": "409",
+        "recreation_area_id": "614"
+    },
+    {
+        "facility_name": "Boat-In Sites 1-16",
+        "recreation_area": "Auburn SRA",
+        "facility_id": "411",
+        "recreation_area_id": "616"
+    },
+    {
+        "facility_name": "Campground (sites 1-31)",
+        "recreation_area": "Bolsa Chica SB",
+        "facility_id": "417",
+        "recreation_area_id": "619"
+    },
+    {
+        "facility_name": "Campground (sites 32-57)",
+        "recreation_area": "Bolsa Chica SB",
+        "facility_id": "418",
+        "recreation_area_id": "619"
+    },
+    {
+        "facility_name": "Valley Group Camp",
+        "recreation_area": "Bothe-Napa Valley SP",
+        "facility_id": "419",
+        "recreation_area_id": "620"
+    },
+    {
+        "facility_name": "Brannan Island Berth Area",
+        "recreation_area": "Brannan Island SRA",
+        "facility_id": "422",
+        "recreation_area_id": "621"
+    },
+    {
+        "facility_name": "Cottonwood Campground",
+        "recreation_area": "Brannan Island SRA",
+        "facility_id": "423",
+        "recreation_area_id": "621"
+    },
+    {
+        "facility_name": "Sacramento Group Camping",
+        "recreation_area": "Brannan Island SRA",
+        "facility_id": "424",
+        "recreation_area_id": "621"
+    },
+    {
+        "facility_name": "Olympic Campground",
+        "recreation_area": "Brannan Island SRA",
+        "facility_id": "425",
+        "recreation_area_id": "621"
+    },
+    {
+        "facility_name": "Ramada Day Use Area",
+        "recreation_area": "Brannan Island SRA",
+        "facility_id": "426",
+        "recreation_area_id": "621"
+    },
+    {
+        "facility_name": "Walk In Campground",
+        "recreation_area": "Brannan Island SRA",
+        "facility_id": "427",
+        "recreation_area_id": "621"
+    },
+    {
+        "facility_name": "Willow Campground",
+        "recreation_area": "Brannan Island SRA",
+        "facility_id": "428",
+        "recreation_area_id": "621"
+    },
+    {
+        "facility_name": "Castle Crags Campground",
+        "recreation_area": "Castle Crags SP",
+        "facility_id": "431",
+        "recreation_area_id": "624"
+    },
+    {
+        "facility_name": "Riverside Campground",
+        "recreation_area": "Castle Crags SP",
+        "facility_id": "432",
+        "recreation_area_id": "624"
+    },
+    {
+        "facility_name": "Caswell Memorial Campground",
+        "recreation_area": "Caswell Memorial SP",
+        "facility_id": "433",
+        "recreation_area_id": "625"
+    },
+    {
+        "facility_name": "Group Camping",
+        "recreation_area": "Caswell Memorial SP",
+        "facility_id": "434",
+        "recreation_area_id": "625"
+    },
+    {
+        "facility_name": "Buckeye Point Picnic Area",
+        "recreation_area": "China Camp SP",
+        "facility_id": "435",
+        "recreation_area_id": "626"
+    },
+    {
+        "facility_name": "China Camp Group Camping Area",
+        "recreation_area": "China Camp SP",
+        "facility_id": "436",
+        "recreation_area_id": "626"
+    },
+    {
+        "facility_name": "Campground (sites 1-30)",
+        "recreation_area": "China Camp SP",
+        "facility_id": "437",
+        "recreation_area_id": "626"
+    },
+    {
+        "facility_name": "Rolling M. Ranch Campground",
+        "recreation_area": "Chino Hills SP",
+        "facility_id": "439",
+        "recreation_area_id": "627"
+    },
+    {
+        "facility_name": "Cole Creek (sites 1-26)",
+        "recreation_area": "Clear Lake SP",
+        "facility_id": "440",
+        "recreation_area_id": "628"
+    },
+    {
+        "facility_name": "Kelsey Creek (sites 27-91)",
+        "recreation_area": "Clear Lake SP",
+        "facility_id": "442",
+        "recreation_area_id": "628"
+    },
+    {
+        "facility_name": "Lower Bay View (sites 92-112)",
+        "recreation_area": "Clear Lake SP",
+        "facility_id": "443",
+        "recreation_area_id": "628"
+    },
+    {
+        "facility_name": "Upper Bay View (sites 113-147)",
+        "recreation_area": "Clear Lake SP",
+        "facility_id": "444",
+        "recreation_area_id": "628"
+    },
+    {
+        "facility_name": "John L. Whitehead Jr. Campground",
+        "recreation_area": "Colonel Allensworth SHP",
+        "facility_id": "445",
+        "recreation_area_id": "630"
+    },
+    {
+        "facility_name": "River Campground (sites 2-14)",
+        "recreation_area": "Colusa-Sacramento River SRA",
+        "facility_id": "446",
+        "recreation_area_id": "632"
+    },
+    {
+        "facility_name": "Moro Campground",
+        "recreation_area": "Crystal Cove SP Moro Campground",
+        "facility_id": "447",
+        "recreation_area_id": "635"
+    },
+    {
+        "facility_name": "Group Camp",
+        "recreation_area": "D.L. Bliss SP",
+        "facility_id": "451",
+        "recreation_area_id": "637"
+    },
+    {
+        "facility_name": "Lower Pine (sites 1-32)",
+        "recreation_area": "D.L. Bliss SP",
+        "facility_id": "453",
+        "recreation_area_id": "637"
+    },
+    {
+        "facility_name": "Beach Camp (sites 141-165)",
+        "recreation_area": "D.L. Bliss SP",
+        "facility_id": "454",
+        "recreation_area_id": "637"
+    },
+    {
+        "facility_name": "Upper Pine (sites 33-88)",
+        "recreation_area": "D.L. Bliss SP",
+        "facility_id": "455",
+        "recreation_area_id": "637"
+    },
+    {
+        "facility_name": "West Ridge Campground (sites 113 - 130)",
+        "recreation_area": "D.L. Bliss SP",
+        "facility_id": "458",
+        "recreation_area_id": "637"
+    },
+    {
+        "facility_name": "Mill Creek Southern Loop (sites 1-74)",
+        "recreation_area": "Del Norte Coast Redwood SP Mill Creek Campground",
+        "facility_id": "460",
+        "recreation_area_id": "638"
+    },
+    {
+        "facility_name": "Mill Creek Northern Loop (sites 75-145)",
+        "recreation_area": "Del Norte Coast Redwood SP Mill Creek Campground",
+        "facility_id": "461",
+        "recreation_area_id": "638"
+    },
+    {
+        "facility_name": "North Loop (sites 1-59, 120, 122)",
+        "recreation_area": "Doheny SB",
+        "facility_id": "462",
+        "recreation_area_id": "639"
+    },
+    {
+        "facility_name": "South Loop (sites 60-119, 121)",
+        "recreation_area": "Doheny SB",
+        "facility_id": "464",
+        "recreation_area_id": "639"
+    },
+    {
+        "facility_name": "Creek Campground (sites 50-107}",
+        "recreation_area": "Donner Memorial SP",
+        "facility_id": "466",
+        "recreation_area_id": "640"
+    },
+    {
+        "facility_name": "Ridge Campground (sites 1-49)",
+        "recreation_area": "Donner Memorial SP",
+        "facility_id": "467",
+        "recreation_area_id": "640"
+    },
+    {
+        "facility_name": "Splitrock Campground (sites 108-152)",
+        "recreation_area": "Donner Memorial SP",
+        "facility_id": "468",
+        "recreation_area_id": "640"
+    },
+    {
+        "facility_name": "Boat-In Camp Area",
+        "recreation_area": "Emerald Bay SP",
+        "facility_id": "469",
+        "recreation_area_id": "641"
+    },
+    {
+        "facility_name": "Lower Eagle Point (sites 34-100)",
+        "recreation_area": "Emerald Bay SP",
+        "facility_id": "472",
+        "recreation_area_id": "641"
+    },
+    {
+        "facility_name": "Group Camps",
+        "recreation_area": "Emma Wood SB",
+        "facility_id": "473",
+        "recreation_area_id": "642"
+    },
+    {
+        "facility_name": "North Beach Upper (sites 1-23)",
+        "recreation_area": "Emma Wood SB",
+        "facility_id": "475",
+        "recreation_area_id": "642"
+    },
+    {
+        "facility_name": "North Beach Lower (sites 24-90)",
+        "recreation_area": "Emma Wood SB",
+        "facility_id": "478",
+        "recreation_area_id": "642"
+    },
+    {
+        "facility_name": "Beals Point Campground (sites 1-49)",
+        "recreation_area": "Folsom Lake SRA",
+        "facility_id": "481",
+        "recreation_area_id": "643"
+    },
+    {
+        "facility_name": "Black Miners Bar",
+        "recreation_area": "Folsom Lake SRA",
+        "facility_id": "483",
+        "recreation_area_id": "643"
+    },
+    {
+        "facility_name": "Peninsula Campground (sites 1-57)",
+        "recreation_area": "Folsom Lake SRA",
+        "facility_id": "484",
+        "recreation_area_id": "643"
+    },
+    {
+        "facility_name": "Peninsula Campground (sites 58-96)",
+        "recreation_area": "Folsom Lake SRA",
+        "facility_id": "487",
+        "recreation_area_id": "643"
+    },
+    {
+        "facility_name": "Fort Tejon Group Site",
+        "recreation_area": "Fort Tejon SHP",
+        "facility_id": "488",
+        "recreation_area_id": "644"
+    },
+    {
+        "facility_name": "Doe Flat Group Camp",
+        "recreation_area": "Fremont Peak SP",
+        "facility_id": "489",
+        "recreation_area_id": "645"
+    },
+    {
+        "facility_name": "Valley View Campground",
+        "recreation_area": "Fremont Peak SP",
+        "facility_id": "490",
+        "recreation_area_id": "645"
+    },
+    {
+        "facility_name": "Gaviota Campground",
+        "recreation_area": "Gaviota SP",
+        "facility_id": "491",
+        "recreation_area_id": "646"
+    },
+    {
+        "facility_name": "George Hatfield Group Camp",
+        "recreation_area": "George J. Hatfield SRA",
+        "facility_id": "492",
+        "recreation_area_id": "648"
+    },
+    {
+        "facility_name": "River Campground (sites 1-30)",
+        "recreation_area": "Grizzly Creek Redwoods SP",
+        "facility_id": "493",
+        "recreation_area_id": "650"
+    },
+    {
+        "facility_name": "Hot Springs Campground (sites 1-36)",
+        "recreation_area": "Grover Hot Springs SP",
+        "facility_id": "494",
+        "recreation_area_id": "651"
+    },
+    {
+        "facility_name": "Hot Springs Campground (sites 37-76)",
+        "recreation_area": "Grover Hot Springs SP",
+        "facility_id": "495",
+        "recreation_area_id": "651"
+    },
+    {
+        "facility_name": "Francis Beach Campground",
+        "recreation_area": "Half Moon Bay SB",
+        "facility_id": "498",
+        "recreation_area_id": "652"
+    },
+    {
+        "facility_name": "Sweetwood Group Camping",
+        "recreation_area": "Half Moon Bay SB",
+        "facility_id": "500",
+        "recreation_area_id": "652"
+    },
+    {
+        "facility_name": "Azalea Campground",
+        "recreation_area": "Hendy Woods SP",
+        "facility_id": "502",
+        "recreation_area_id": "654"
+    },
+    {
+        "facility_name": "Wildcat Campground",
+        "recreation_area": "Hendy Woods SP",
+        "facility_id": "503",
+        "recreation_area_id": "654"
+    },
+    {
+        "facility_name": "Cowell Campground  South (sites 1-51)",
+        "recreation_area": "Henry Cowell Redwoods SP",
+        "facility_id": "504",
+        "recreation_area_id": "655"
+    },
+    {
+        "facility_name": "Cowell Campground North (sites 52-113)",
+        "recreation_area": "Henry Cowell Redwoods SP",
+        "facility_id": "505",
+        "recreation_area_id": "655"
+    },
+    {
+        "facility_name": "Coe Ranch Campground",
+        "recreation_area": "Henry W Coe SP",
+        "facility_id": "506",
+        "recreation_area_id": "656"
+    },
+    {
+        "facility_name": "Albee Creek Camp",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "507",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Baxter Environmental Camp",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "508",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Burlington Camp",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "509",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Cuneo Creek Horse Camp",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "510",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Hamilton Barn Environmental Camp",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "511",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Hidden Springs Camp (sites 1-38, 51-78)",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "512",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Hidden Springs Camp (sites 39-50,79-86,142-155)",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "513",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Marin Group Camp",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "514",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Williams Grove Group Camp",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "515",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Indian Grinding Rock Campground",
+        "recreation_area": "Indian Grinding Rock SHP",
+        "facility_id": "516",
+        "recreation_area_id": "659"
+    },
+    {
+        "facility_name": "Main Loop (sites 1-44, 92-106)",
+        "recreation_area": "Jedediah Smith Redwoods SP",
+        "facility_id": "517",
+        "recreation_area_id": "660"
+    },
+    {
+        "facility_name": "Environmental Group Camp Area",
+        "recreation_area": "Julia Pfeiffer Burns SP",
+        "facility_id": "518",
+        "recreation_area_id": "661"
+    },
+    {
+        "facility_name": "Manzanita Point Hike-In Group Camps",
+        "recreation_area": "Henry W Coe SP",
+        "facility_id": "519",
+        "recreation_area_id": "656"
+    },
+    {
+        "facility_name": "Bloomer North Fork Trail Camp",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "520",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Floating Camping Area",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "522",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Group Boat-In Area",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "525",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Lime Saddle Campground",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "526",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Lime Saddle Group Camps",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "527",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Loafer Creek Group Camps",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "528",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Bobcat Loop (sites 354-390)",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "529",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Coyote Loop (sites 89-136)",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "530",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Deer Loop (sites 192-202, 271-351)",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "531",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Group Camp",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "532",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Group Picnic",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "533",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Horse Camp",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "534",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Quail Loop (sites 1-44)",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "536",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Roadrunner Loop (sites 391-432)",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "537",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Canyon Campground (sites 1-24, 78-133)",
+        "recreation_area": "Leo Carrillo SP",
+        "facility_id": "539",
+        "recreation_area_id": "665"
+    },
+    {
+        "facility_name": "Group Camping Area",
+        "recreation_area": "Mcconnell SRA",
+        "facility_id": "540",
+        "recreation_area_id": "676"
+    },
+    {
+        "facility_name": "Canyon Group Camp",
+        "recreation_area": "Leo Carrillo SP",
+        "facility_id": "541",
+        "recreation_area_id": "665"
+    },
+    {
+        "facility_name": "Canyon Campground (sites 25-77, 134-139)",
+        "recreation_area": "Leo Carrillo SP",
+        "facility_id": "542",
+        "recreation_area_id": "665"
+    },
+    {
+        "facility_name": "Meadows Loop (sites 92-148)",
+        "recreation_area": "Millerton Lake SRA",
+        "facility_id": "543",
+        "recreation_area_id": "678"
+    },
+    {
+        "facility_name": "Bidwell Canyon (sites 40-75)",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "544",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Redwood Camp (sites 13-29)",
+        "recreation_area": "Limekiln SP",
+        "facility_id": "546",
+        "recreation_area_id": "666"
+    },
+    {
+        "facility_name": "Loafer Creek Camp (sites 1-43)",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "547",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Creekside Area",
+        "recreation_area": "Little Basin State Park",
+        "facility_id": "548",
+        "recreation_area_id": "667"
+    },
+    {
+        "facility_name": "Derksen Grove",
+        "recreation_area": "Little Basin State Park",
+        "facility_id": "549",
+        "recreation_area_id": "667"
+    },
+    {
+        "facility_name": "Huckleberry Area",
+        "recreation_area": "Little Basin State Park",
+        "facility_id": "550",
+        "recreation_area_id": "667"
+    },
+    {
+        "facility_name": "Stargazers Area",
+        "recreation_area": "Little Basin State Park",
+        "facility_id": "551",
+        "recreation_area_id": "667"
+    },
+    {
+        "facility_name": "Woodfern Area",
+        "recreation_area": "Little Basin State Park",
+        "facility_id": "552",
+        "recreation_area_id": "667"
+    },
+    {
+        "facility_name": "Cleone Group Area",
+        "recreation_area": "Mackerricher SP",
+        "facility_id": "553",
+        "recreation_area_id": "668"
+    },
+    {
+        "facility_name": "Surfwood Campground",
+        "recreation_area": "Mackerricher SP",
+        "facility_id": "556",
+        "recreation_area_id": "668"
+    },
+    {
+        "facility_name": "East Pinewood  Campground",
+        "recreation_area": "Mackerricher SP",
+        "facility_id": "557",
+        "recreation_area_id": "668"
+    },
+    {
+        "facility_name": "West Pinewood Campground",
+        "recreation_area": "Mackerricher SP",
+        "facility_id": "558",
+        "recreation_area_id": "668"
+    },
+    {
+        "facility_name": "Chute Hill Campground",
+        "recreation_area": "Malakoff Diggins SHP",
+        "facility_id": "559",
+        "recreation_area_id": "669"
+    },
+    {
+        "facility_name": "Group Camp Area",
+        "recreation_area": "Malibu Creek SP",
+        "facility_id": "561",
+        "recreation_area_id": "670"
+    },
+    {
+        "facility_name": "Creek Campground (sites 1-63)",
+        "recreation_area": "Malibu Creek SP",
+        "facility_id": "562",
+        "recreation_area_id": "670"
+    },
+    {
+        "facility_name": "Group Camp Area",
+        "recreation_area": "Manchester SP",
+        "facility_id": "563",
+        "recreation_area_id": "671"
+    },
+    {
+        "facility_name": "Willow Camps (sites 1-26)",
+        "recreation_area": "Manresa SB",
+        "facility_id": "564",
+        "recreation_area_id": "672"
+    },
+    {
+        "facility_name": "Bay & Lupine Camps (sites 27-65)",
+        "recreation_area": "Manresa SB",
+        "facility_id": "565",
+        "recreation_area_id": "672"
+    },
+    {
+        "facility_name": "Pioneer Camp",
+        "recreation_area": "Mcarthur-Burney Falls Memorial SP",
+        "facility_id": "567",
+        "recreation_area_id": "674"
+    },
+    {
+        "facility_name": "Rim Camp (sites 1-62)",
+        "recreation_area": "Mcarthur-Burney Falls Memorial SP",
+        "facility_id": "569",
+        "recreation_area_id": "674"
+    },
+    {
+        "facility_name": "Mcconnell Campground",
+        "recreation_area": "Mcconnell SRA",
+        "facility_id": "570",
+        "recreation_area_id": "676"
+    },
+    {
+        "facility_name": "Campground Section 1 (sites 1-58)",
+        "recreation_area": "Mcgrath SB",
+        "facility_id": "571",
+        "recreation_area_id": "677"
+    },
+    {
+        "facility_name": "North Shore Group Camp",
+        "recreation_area": "Millerton Lake SRA",
+        "facility_id": "572",
+        "recreation_area_id": "678"
+    },
+    {
+        "facility_name": "Environmental Camping",
+        "recreation_area": "Montana De Oro SP",
+        "facility_id": "574",
+        "recreation_area_id": "679"
+    },
+    {
+        "facility_name": "Loafer Creek Horse Campground",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "575",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Horse Camps",
+        "recreation_area": "Montana De Oro SP",
+        "facility_id": "576",
+        "recreation_area_id": "679"
+    },
+    {
+        "facility_name": "Islay Creek Campground",
+        "recreation_area": "Montana De Oro SP",
+        "facility_id": "577",
+        "recreation_area_id": "679"
+    },
+    {
+        "facility_name": "Group Sites",
+        "recreation_area": "Morro Bay SP",
+        "facility_id": "580",
+        "recreation_area_id": "680"
+    },
+    {
+        "facility_name": "Doheny Group",
+        "recreation_area": "Doheny SB",
+        "facility_id": "581",
+        "recreation_area_id": "639"
+    },
+    {
+        "facility_name": "Lower Section (sites 1-85)",
+        "recreation_area": "Morro Bay SP",
+        "facility_id": "582",
+        "recreation_area_id": "680"
+    },
+    {
+        "facility_name": "Upper Section (sites 86-140)",
+        "recreation_area": "Morro Bay SP",
+        "facility_id": "583",
+        "recreation_area_id": "680"
+    },
+    {
+        "facility_name": "Morro Strand Campground (sites 19-66)",
+        "recreation_area": "Morro Strand SB",
+        "facility_id": "584",
+        "recreation_area_id": "681"
+    },
+    {
+        "facility_name": "Live Oak Campground",
+        "recreation_area": "Mount Diablo SP",
+        "facility_id": "585",
+        "recreation_area_id": "683"
+    },
+    {
+        "facility_name": "Morro Strand Campground (sites 1-18, 67-81)",
+        "recreation_area": "Morro Strand SB",
+        "facility_id": "587",
+        "recreation_area_id": "681"
+    },
+    {
+        "facility_name": "Alice Eastwood Group Camps",
+        "recreation_area": "Mount Tamalpais SP",
+        "facility_id": "588",
+        "recreation_area_id": "682"
+    },
+    {
+        "facility_name": "Frank Valley Horse Camp",
+        "recreation_area": "Mount Tamalpais SP",
+        "facility_id": "589",
+        "recreation_area_id": "682"
+    },
+    {
+        "facility_name": "S Rav Camp Area (sites E1-E7)",
+        "recreation_area": "Mount Tamalpais SP",
+        "facility_id": "590",
+        "recreation_area_id": "682"
+    },
+    {
+        "facility_name": "Group Campsites",
+        "recreation_area": "Mount Diablo SP",
+        "facility_id": "591",
+        "recreation_area_id": "683"
+    },
+    {
+        "facility_name": "Juniper Campground",
+        "recreation_area": "Mount Diablo SP",
+        "facility_id": "592",
+        "recreation_area_id": "683"
+    },
+    {
+        "facility_name": "Idyllwild Campground",
+        "recreation_area": "Mt. San Jacinto SP",
+        "facility_id": "593",
+        "recreation_area_id": "684"
+    },
+    {
+        "facility_name": "Stone Creek Campground",
+        "recreation_area": "Mt. San Jacinto SP",
+        "facility_id": "595",
+        "recreation_area_id": "684"
+    },
+    {
+        "facility_name": "Group Camping Area",
+        "recreation_area": "New Brighton SB",
+        "facility_id": "596",
+        "recreation_area_id": "685"
+    },
+    {
+        "facility_name": "Campground Southern End (sites 1-43)",
+        "recreation_area": "New Brighton SB",
+        "facility_id": "597",
+        "recreation_area_id": "685"
+    },
+    {
+        "facility_name": "Campground Northern End (sites 44-111)",
+        "recreation_area": "New Brighton SB",
+        "facility_id": "598",
+        "recreation_area_id": "685"
+    },
+    {
+        "facility_name": "Cedar Grove Group Camp",
+        "recreation_area": "Palomar Mountain SP",
+        "facility_id": "600",
+        "recreation_area_id": "687"
+    },
+    {
+        "facility_name": "Doane Valley Family Camp",
+        "recreation_area": "Palomar Mountain SP",
+        "facility_id": "601",
+        "recreation_area_id": "687"
+    },
+    {
+        "facility_name": "Abalone Campground (sites 16-85)",
+        "recreation_area": "Sue-meg SP",
+        "facility_id": "602",
+        "recreation_area_id": "688"
+    },
+    {
+        "facility_name": "Agate Campground (sites 86-124)",
+        "recreation_area": "Sue-meg SP",
+        "facility_id": "603",
+        "recreation_area_id": "688"
+    },
+    {
+        "facility_name": "Group Camping Areas",
+        "recreation_area": "Sue-meg SP",
+        "facility_id": "604",
+        "recreation_area_id": "688"
+    },
+    {
+        "facility_name": "Bishop Pine Group Picnic Area",
+        "recreation_area": "Sue-meg SP",
+        "facility_id": "605",
+        "recreation_area_id": "688"
+    },
+    {
+        "facility_name": "Penn Creek Campground (sites 1-15)",
+        "recreation_area": "Sue-meg SP",
+        "facility_id": "606",
+        "recreation_area_id": "688"
+    },
+    {
+        "facility_name": "Sumeg Group Picnic Area",
+        "recreation_area": "Sue-meg SP",
+        "facility_id": "608",
+        "recreation_area_id": "688"
+    },
+    {
+        "facility_name": "Group Sites A & B",
+        "recreation_area": "Pfeiffer Big Sur SP",
+        "facility_id": "609",
+        "recreation_area_id": "690"
+    },
+    {
+        "facility_name": "South Camp (sites 1-78)",
+        "recreation_area": "Pfeiffer Big Sur SP",
+        "facility_id": "611",
+        "recreation_area_id": "690"
+    },
+    {
+        "facility_name": "Weyland Camp (sites 79-130)",
+        "recreation_area": "Pfeiffer Big Sur SP",
+        "facility_id": "612",
+        "recreation_area_id": "690"
+    },
+    {
+        "facility_name": "Warren Group Camp Area",
+        "recreation_area": "Salt Point SP",
+        "facility_id": "613",
+        "recreation_area_id": "703"
+    },
+    {
+        "facility_name": "Woodside Upper Loop (sites 71-109)",
+        "recreation_area": "Salt Point SP",
+        "facility_id": "614",
+        "recreation_area_id": "703"
+    },
+    {
+        "facility_name": "North Beach Campground",
+        "recreation_area": "Pismo SB",
+        "facility_id": "615",
+        "recreation_area_id": "691"
+    },
+    {
+        "facility_name": "Oceano Camp (sites 1-42)",
+        "recreation_area": "Pismo SB",
+        "facility_id": "616",
+        "recreation_area_id": "691"
+    },
+    {
+        "facility_name": "Oceano Camp (sites 43-82)",
+        "recreation_area": "Pismo SB",
+        "facility_id": "618",
+        "recreation_area_id": "691"
+    },
+    {
+        "facility_name": "Camp Lisa Group Site",
+        "recreation_area": "Plumas-Eureka SP",
+        "facility_id": "621",
+        "recreation_area_id": "692"
+    },
+    {
+        "facility_name": "Jamison Creek Campground (sites 1-70)",
+        "recreation_area": "Plumas-Eureka SP",
+        "facility_id": "622",
+        "recreation_area_id": "692"
+    },
+    {
+        "facility_name": "La Jolla Group",
+        "recreation_area": "Point Mugu SP",
+        "facility_id": "623",
+        "recreation_area_id": "694"
+    },
+    {
+        "facility_name": "Sycamore Campground",
+        "recreation_area": "Point Mugu SP",
+        "facility_id": "624",
+        "recreation_area_id": "694"
+    },
+    {
+        "facility_name": "Redwoods Group Camping Area",
+        "recreation_area": "Portola Redwoods SP",
+        "facility_id": "625",
+        "recreation_area_id": "695"
+    },
+    {
+        "facility_name": "Family Walk in (sites 61-64)",
+        "recreation_area": "Portola Redwoods SP",
+        "facility_id": "626",
+        "recreation_area_id": "695"
+    },
+    {
+        "facility_name": "Portola Campground (sites 1-4, 20-45)",
+        "recreation_area": "Portola Redwoods SP",
+        "facility_id": "628",
+        "recreation_area_id": "695"
+    },
+    {
+        "facility_name": "Portola Campground (sites 5-19, 46-53)",
+        "recreation_area": "Portola Redwoods SP",
+        "facility_id": "629",
+        "recreation_area_id": "695"
+    },
+    {
+        "facility_name": "Elk Prairie Campground (sites 1-75)",
+        "recreation_area": "Prairie Creek Redwoods SP Elk Prairie Campground",
+        "facility_id": "631",
+        "recreation_area_id": "696"
+    },
+    {
+        "facility_name": "Gold Bluffs Beach Campground (sites 1-26)",
+        "recreation_area": "Prairie Creek Redwoods SP Gold Bluffs Beach Camp",
+        "facility_id": "632",
+        "recreation_area_id": "697"
+    },
+    {
+        "facility_name": "Refugio Campground",
+        "recreation_area": "Refugio SB",
+        "facility_id": "633",
+        "recreation_area_id": "699"
+    },
+    {
+        "facility_name": "Group Camping Area",
+        "recreation_area": "Refugio SB",
+        "facility_id": "634",
+        "recreation_area_id": "699"
+    },
+    {
+        "facility_name": "Dawn Redwood Group Area",
+        "recreation_area": "Richardson Grove SP",
+        "facility_id": "637",
+        "recreation_area_id": "700"
+    },
+    {
+        "facility_name": "Oak Flat Upper Section (121-165)",
+        "recreation_area": "Richardson Grove SP",
+        "facility_id": "638",
+        "recreation_area_id": "700"
+    },
+    {
+        "facility_name": "Huckleberry Campground (sites 1-36)",
+        "recreation_area": "Richardson Grove SP",
+        "facility_id": "639",
+        "recreation_area_id": "700"
+    },
+    {
+        "facility_name": "Madrone Campground (sites 37-76)",
+        "recreation_area": "Richardson Grove SP",
+        "facility_id": "642",
+        "recreation_area_id": "700"
+    },
+    {
+        "facility_name": "Oak Flat Lower Section (77-120, 166-170)",
+        "recreation_area": "Richardson Grove SP",
+        "facility_id": "644",
+        "recreation_area_id": "700"
+    },
+    {
+        "facility_name": "Group Camping Area",
+        "recreation_area": "Russian Gulch SP",
+        "facility_id": "645",
+        "recreation_area_id": "701"
+    },
+    {
+        "facility_name": "Campground (sites 1-30)",
+        "recreation_area": "Russian Gulch SP",
+        "facility_id": "646",
+        "recreation_area_id": "701"
+    },
+    {
+        "facility_name": "Group Site",
+        "recreation_area": "Saddleback Butte SP",
+        "facility_id": "647",
+        "recreation_area_id": "702"
+    },
+    {
+        "facility_name": "Gerstle Cove Campground (sites 1-30)",
+        "recreation_area": "Salt Point SP",
+        "facility_id": "648",
+        "recreation_area_id": "703"
+    },
+    {
+        "facility_name": "Woodside Lower Loop (sites 31-70)",
+        "recreation_area": "Salt Point SP",
+        "facility_id": "649",
+        "recreation_area_id": "703"
+    },
+    {
+        "facility_name": "Salt Creek Beach Campground (sites 1-30)",
+        "recreation_area": "Salton Sea SRA",
+        "facility_id": "650",
+        "recreation_area_id": "704"
+    },
+    {
+        "facility_name": "New Camp (sites 26-50)",
+        "recreation_area": "Salton Sea SRA",
+        "facility_id": "651",
+        "recreation_area_id": "704"
+    },
+    {
+        "facility_name": "Creekside Loop (sites 1-25)",
+        "recreation_area": "Samuel P. Taylor SP",
+        "facility_id": "653",
+        "recreation_area_id": "705"
+    },
+    {
+        "facility_name": "Devil Gulch Group Camps",
+        "recreation_area": "Samuel P. Taylor SP",
+        "facility_id": "654",
+        "recreation_area_id": "705"
+    },
+    {
+        "facility_name": "Madrone Group Camping",
+        "recreation_area": "Samuel P. Taylor SP",
+        "facility_id": "656",
+        "recreation_area_id": "705"
+    },
+    {
+        "facility_name": "Orchard Hill Loop (sites 26-59)",
+        "recreation_area": "Samuel P. Taylor SP",
+        "facility_id": "657",
+        "recreation_area_id": "705"
+    },
+    {
+        "facility_name": "Group Picnic Areas",
+        "recreation_area": "Samuel P. Taylor SP",
+        "facility_id": "658",
+        "recreation_area_id": "705"
+    },
+    {
+        "facility_name": "Tent Group Camp",
+        "recreation_area": "San Clemente SB",
+        "facility_id": "659",
+        "recreation_area_id": "707"
+    },
+    {
+        "facility_name": "RV Campground (sites 1-72)",
+        "recreation_area": "San Clemente SB",
+        "facility_id": "661",
+        "recreation_area_id": "707"
+    },
+    {
+        "facility_name": "Tent Campground East Section (sites 100-160)",
+        "recreation_area": "San Clemente SB",
+        "facility_id": "662",
+        "recreation_area_id": "707"
+    },
+    {
+        "facility_name": "Tent Campground West Section (sites 73-99)",
+        "recreation_area": "San Clemente SB",
+        "facility_id": "664",
+        "recreation_area_id": "707"
+    },
+    {
+        "facility_name": "Middle Section (sites 1-39, 93-128)",
+        "recreation_area": "San Elijo SB",
+        "facility_id": "665",
+        "recreation_area_id": "709"
+    },
+    {
+        "facility_name": "Northern Section (sites 130-171)",
+        "recreation_area": "San Elijo SB",
+        "facility_id": "666",
+        "recreation_area_id": "709"
+    },
+    {
+        "facility_name": "Basalt Campground (sites 1-79)",
+        "recreation_area": "San Luis Reservoir SRA",
+        "facility_id": "667",
+        "recreation_area_id": "711"
+    },
+    {
+        "facility_name": "Bluffs Group Camp",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "668",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "Southern Section (sites 40-92)",
+        "recreation_area": "San Elijo SB",
+        "facility_id": "670",
+        "recreation_area_id": "709"
+    },
+    {
+        "facility_name": "Group Sites",
+        "recreation_area": "San Luis Reservoir SRA",
+        "facility_id": "671",
+        "recreation_area_id": "711"
+    },
+    {
+        "facility_name": "San Luis Creek Campground",
+        "recreation_area": "San Luis Reservoir SRA",
+        "facility_id": "672",
+        "recreation_area_id": "711"
+    },
+    {
+        "facility_name": "Bluff Camp (sites 1-23)",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "674",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "Bluff Camp (sites 120-145)",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "675",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "Bluff Camp (sites 141-156)",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "676",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "Bluff Camp (sites 164-175)",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "677",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "Bluff Camp (sites 24-45)",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "678",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "Bluff Camp (sites 46-66)",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "680",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "Bluff Camp (sites 67-93)",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "681",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "Bluff Camp (sites 94-119)",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "682",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "San Mateo Camp (sites 101-140)",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "683",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "San Mateo Camp (sites 141-157)",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "684",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "San Mateo Camp (sites 1-67)",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "685",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "San Mateo Camp (sites 68-100)",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "686",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "Creek Campground Lower Section (sites 36-115)",
+        "recreation_area": "Hearst San Simeon SP",
+        "facility_id": "687",
+        "recreation_area_id": "713"
+    },
+    {
+        "facility_name": "Overflow (sites A2 - C6)",
+        "recreation_area": "Seacliff SB",
+        "facility_id": "688",
+        "recreation_area_id": "714"
+    },
+    {
+        "facility_name": "Seacliff Campground (sites 1-26)",
+        "recreation_area": "Seacliff SB",
+        "facility_id": "689",
+        "recreation_area_id": "714"
+    },
+    {
+        "facility_name": "Silver Strand Northern Section",
+        "recreation_area": "Silver Strand SB",
+        "facility_id": "694",
+        "recreation_area_id": "715"
+    },
+    {
+        "facility_name": "Silver Strand Southern Section",
+        "recreation_area": "Silver Strand SB",
+        "facility_id": "696",
+        "recreation_area_id": "715"
+    },
+    {
+        "facility_name": "Group Camping Area",
+        "recreation_area": "Silverwood Lake SRA",
+        "facility_id": "698",
+        "recreation_area_id": "716"
+    },
+    {
+        "facility_name": "Miller Canyon Group Sites",
+        "recreation_area": "Silverwood Lake SRA",
+        "facility_id": "699",
+        "recreation_area_id": "716"
+    },
+    {
+        "facility_name": "New Mesa Campground (sites 96-136)",
+        "recreation_area": "Silverwood Lake SRA",
+        "facility_id": "700",
+        "recreation_area_id": "716"
+    },
+    {
+        "facility_name": "Old Mesa Campground (sites 1-65)",
+        "recreation_area": "Silverwood Lake SRA",
+        "facility_id": "701",
+        "recreation_area_id": "716"
+    },
+    {
+        "facility_name": "Old Mesa Campground (sites 66-95)",
+        "recreation_area": "Silverwood Lake SRA",
+        "facility_id": "703",
+        "recreation_area_id": "716"
+    },
+    {
+        "facility_name": "Northern End (sites 1-34, 103-130)",
+        "recreation_area": "South Carlsbad SB",
+        "facility_id": "708",
+        "recreation_area_id": "720"
+    },
+    {
+        "facility_name": "Southern End (sites 153-187)",
+        "recreation_area": "South Carlsbad SB",
+        "facility_id": "712",
+        "recreation_area_id": "720"
+    },
+    {
+        "facility_name": "Southern End (sites 131-152, 188-223)",
+        "recreation_area": "South Carlsbad SB",
+        "facility_id": "714",
+        "recreation_area_id": "720"
+    },
+    {
+        "facility_name": "Northern End (sites 35-102)",
+        "recreation_area": "South Carlsbad SB",
+        "facility_id": "715",
+        "recreation_area_id": "720"
+    },
+    {
+        "facility_name": "Redwood Campground",
+        "recreation_area": "Standish-Hickey SRA",
+        "facility_id": "717",
+        "recreation_area_id": "721"
+    },
+    {
+        "facility_name": "Rock Creek Campground",
+        "recreation_area": "Standish-Hickey SRA",
+        "facility_id": "718",
+        "recreation_area_id": "721"
+    },
+    {
+        "facility_name": "Hickey Campground",
+        "recreation_area": "Standish-Hickey SRA",
+        "facility_id": "719",
+        "recreation_area_id": "721"
+    },
+    {
+        "facility_name": "General Creek Group Camping",
+        "recreation_area": "Sugar Pine Point SP",
+        "facility_id": "720",
+        "recreation_area_id": "724"
+    },
+    {
+        "facility_name": "Picnic Area",
+        "recreation_area": "Sugar Pine Point SP",
+        "facility_id": "722",
+        "recreation_area_id": "724"
+    },
+    {
+        "facility_name": "General Creek Western Loop (sites 126-175)",
+        "recreation_area": "Sugar Pine Point SP",
+        "facility_id": "723",
+        "recreation_area_id": "724"
+    },
+    {
+        "facility_name": "General Creek Eastern Loop (sites 33-59)",
+        "recreation_area": "Sugar Pine Point SP",
+        "facility_id": "725",
+        "recreation_area_id": "724"
+    },
+    {
+        "facility_name": "General Creek Middle Loop (sites 76-125)",
+        "recreation_area": "Sugar Pine Point SP",
+        "facility_id": "726",
+        "recreation_area_id": "724"
+    },
+    {
+        "facility_name": "Group Camping Area",
+        "recreation_area": "Sugarloaf Ridge SP",
+        "facility_id": "728",
+        "recreation_area_id": "725"
+    },
+    {
+        "facility_name": "Group Dailyuse Picnic Area",
+        "recreation_area": "Sugarloaf Ridge SP",
+        "facility_id": "729",
+        "recreation_area_id": "725"
+    },
+    {
+        "facility_name": "Campground Loop (sites 1-14, 29-50)",
+        "recreation_area": "Sugarloaf Ridge SP",
+        "facility_id": "731",
+        "recreation_area_id": "725"
+    },
+    {
+        "facility_name": "Campground Spur (sites 15-28)",
+        "recreation_area": "Sugarloaf Ridge SP",
+        "facility_id": "733",
+        "recreation_area_id": "725"
+    },
+    {
+        "facility_name": "Pines Hollow and Dunes Camp (Sites 38 \u2013 90)",
+        "recreation_area": "Sunset SB",
+        "facility_id": "734",
+        "recreation_area_id": "726"
+    },
+    {
+        "facility_name": "Sunset Group Area",
+        "recreation_area": "Sunset SB",
+        "facility_id": "735",
+        "recreation_area_id": "726"
+    },
+    {
+        "facility_name": "South Camp (sites 1-37)",
+        "recreation_area": "Sunset SB",
+        "facility_id": "737",
+        "recreation_area_id": "726"
+    },
+    {
+        "facility_name": "Tahoe Campground",
+        "recreation_area": "Tahoe SRA",
+        "facility_id": "738",
+        "recreation_area_id": "728"
+    },
+    {
+        "facility_name": "Campground (sites 1-66)",
+        "recreation_area": "Turlock Lake SRA",
+        "facility_id": "739",
+        "recreation_area_id": "730"
+    },
+    {
+        "facility_name": "Lower Loop (sites 1-13)",
+        "recreation_area": "Van Damme SP",
+        "facility_id": "741",
+        "recreation_area_id": "731"
+    },
+    {
+        "facility_name": "Little River Spur (sites 14-30)",
+        "recreation_area": "Van Damme SP",
+        "facility_id": "742",
+        "recreation_area_id": "731"
+    },
+    {
+        "facility_name": "Upper Loop (sites 31-74)",
+        "recreation_area": "Van Damme SP",
+        "facility_id": "743",
+        "recreation_area_id": "731"
+    },
+    {
+        "facility_name": "Group Camping Area",
+        "recreation_area": "Van Damme SP",
+        "facility_id": "744",
+        "recreation_area_id": "731"
+    },
+    {
+        "facility_name": "Hike in Campground (sites 1-10)",
+        "recreation_area": "Van Damme SP",
+        "facility_id": "745",
+        "recreation_area_id": "731"
+    },
+    {
+        "facility_name": "Group Camping Area",
+        "recreation_area": "Woodson Bridge SRA",
+        "facility_id": "746",
+        "recreation_area_id": "732"
+    },
+    {
+        "facility_name": "Bridge Campground (sites 1-37)",
+        "recreation_area": "Woodson Bridge SRA",
+        "facility_id": "747",
+        "recreation_area_id": "732"
+    },
+    {
+        "facility_name": "Valley Yurts",
+        "recreation_area": "Bothe-Napa Valley SP",
+        "facility_id": "752",
+        "recreation_area_id": "620"
+    },
+    {
+        "facility_name": "Cabin Colony",
+        "recreation_area": "Brannan Island SRA",
+        "facility_id": "753",
+        "recreation_area_id": "621"
+    },
+    {
+        "facility_name": "Cottage Colony",
+        "recreation_area": "Columbia SHP Hotels and Cottages",
+        "facility_id": "755",
+        "recreation_area_id": "631"
+    },
+    {
+        "facility_name": "Beach Cottages",
+        "recreation_area": "Crystal Cove SP Beach Cottages",
+        "facility_id": "757",
+        "recreation_area_id": "634"
+    },
+    {
+        "facility_name": "Cabin Colony",
+        "recreation_area": "Hendy Woods SP",
+        "facility_id": "759",
+        "recreation_area_id": "654"
+    },
+    {
+        "facility_name": "North Bloomfield Cabin Colony",
+        "recreation_area": "Malakoff Diggins SHP",
+        "facility_id": "763",
+        "recreation_area_id": "669"
+    },
+    {
+        "facility_name": "S Rav Cabin Area",
+        "recreation_area": "Mount Tamalpais SP",
+        "facility_id": "766",
+        "recreation_area_id": "682"
+    },
+    {
+        "facility_name": "Main Camp (sites 131-188)",
+        "recreation_area": "Pfeiffer Big Sur SP",
+        "facility_id": "767",
+        "recreation_area_id": "690"
+    },
+    {
+        "facility_name": "Madrone Cabin Area",
+        "recreation_area": "Richardson Grove SP",
+        "facility_id": "768",
+        "recreation_area_id": "700"
+    },
+    {
+        "facility_name": "Borrego Palm Canyon (sites 1-52)",
+        "recreation_area": "Anza-Borrego Desert SP",
+        "facility_id": "776",
+        "recreation_area_id": "2"
+    },
+    {
+        "facility_name": "Borrego Palm Canyon (sites 90-120)",
+        "recreation_area": "Anza-Borrego Desert SP",
+        "facility_id": "777",
+        "recreation_area_id": "2"
+    },
+    {
+        "facility_name": "Lower Loop (sites 1-21)",
+        "recreation_area": "Benbow SRA",
+        "facility_id": "779",
+        "recreation_area_id": "617"
+    },
+    {
+        "facility_name": "Middle Loop (sites 22-47)",
+        "recreation_area": "Benbow SRA",
+        "facility_id": "780",
+        "recreation_area_id": "617"
+    },
+    {
+        "facility_name": "Upper Loop (sites 48-75)",
+        "recreation_area": "Benbow SRA",
+        "facility_id": "781",
+        "recreation_area_id": "617"
+    },
+    {
+        "facility_name": "Ritchey Creek Campground",
+        "recreation_area": "Bothe-Napa Valley SP",
+        "facility_id": "782",
+        "recreation_area_id": "620"
+    },
+    {
+        "facility_name": "Ben Ries Campground",
+        "recreation_area": "Butano SP",
+        "facility_id": "783",
+        "recreation_area_id": "622"
+    },
+    {
+        "facility_name": "Group Camping Area",
+        "recreation_area": "Clear Lake SP",
+        "facility_id": "785",
+        "recreation_area_id": "628"
+    },
+    {
+        "facility_name": "Upper Eagle Point (sites 1-33)",
+        "recreation_area": "Emerald Bay SP",
+        "facility_id": "786",
+        "recreation_area_id": "641"
+    },
+    {
+        "facility_name": "Washburn Campground (sites 201-268)",
+        "recreation_area": "Hearst San Simeon SP",
+        "facility_id": "787",
+        "recreation_area_id": "713"
+    },
+    {
+        "facility_name": "Creek Tent Campground (sites 116-134)",
+        "recreation_area": "Hearst San Simeon SP",
+        "facility_id": "788",
+        "recreation_area_id": "713"
+    },
+    {
+        "facility_name": "Creek Campground Upper Section (sites 1-35)",
+        "recreation_area": "Hearst San Simeon SP",
+        "facility_id": "789",
+        "recreation_area_id": "713"
+    },
+    {
+        "facility_name": "Outer Loop (sites 45-60, 76-91)",
+        "recreation_area": "Jedediah Smith Redwoods SP",
+        "facility_id": "791",
+        "recreation_area_id": "660"
+    },
+    {
+        "facility_name": "Hidden Springs Camp (sites 87-141)",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "792",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Quail Loop (sites 45-88)",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "793",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Coyote Loop (sites 137-190)",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "794",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Deer Loop (sites 221-270)",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "795",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Bidwell Canyon (sites 1-39)",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "797",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Loafer Creek Camp (sites 44-81)",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "798",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Loafer Creek Camp (sites 82-137)",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "799",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Campground Section 3 (sites 117-174)",
+        "recreation_area": "Mcgrath SB",
+        "facility_id": "802",
+        "recreation_area_id": "677"
+    },
+    {
+        "facility_name": "Campground Section 2 (sites 59-116)",
+        "recreation_area": "Mcgrath SB",
+        "facility_id": "803",
+        "recreation_area_id": "677"
+    },
+    {
+        "facility_name": "Cabin Colony",
+        "recreation_area": "Bothe-Napa Valley SP",
+        "facility_id": "882",
+        "recreation_area_id": "620"
+    },
+    {
+        "facility_name": "Cabin Colony",
+        "recreation_area": "Clear Lake SP Cabins",
+        "facility_id": "889",
+        "recreation_area_id": "629"
+    },
+    {
+        "facility_name": "Redwoods Cabin Area",
+        "recreation_area": "Jedediah Smith Redwoods SP",
+        "facility_id": "903",
+        "recreation_area_id": "660"
+    },
+    {
+        "facility_name": "Memorial Cabin Area",
+        "recreation_area": "Mcarthur-Burney Falls Mem SP Cabins",
+        "facility_id": "908",
+        "recreation_area_id": "675"
+    },
+    {
+        "facility_name": "Meadow Cabin Colony",
+        "recreation_area": "Prairie Creek Redwoods SP Elk Prairie Campground",
+        "facility_id": "914",
+        "recreation_area_id": "696"
+    },
+    {
+        "facility_name": "Mecca Beach Campground (sites 106-159)",
+        "recreation_area": "Salton Sea SRA",
+        "facility_id": "918",
+        "recreation_area_id": "704"
+    },
+    {
+        "facility_name": "Madrone Cabin Area",
+        "recreation_area": "Samuel P. Taylor SP Cabins",
+        "facility_id": "919",
+        "recreation_area_id": "706"
+    },
+    {
+        "facility_name": "Vintage Trailer",
+        "recreation_area": "San Clemente SB (The Holidays Vintage Trailers)",
+        "facility_id": "920",
+        "recreation_area_id": "708"
+    },
+    {
+        "facility_name": "Benicia SRA",
+        "recreation_area": "Benicia SRA",
+        "facility_id": "962",
+        "recreation_area_id": "1090"
+    },
+    {
+        "facility_name": "Irvine Finch Access",
+        "recreation_area": "Bidwell-Sacramento River SP",
+        "facility_id": "965",
+        "recreation_area_id": "1093"
+    },
+    {
+        "facility_name": "Westport-Union Landing SB",
+        "recreation_area": "Westport-Union Landing SB",
+        "facility_id": "1103",
+        "recreation_area_id": "1235"
+    },
+    {
+        "facility_name": "Wilder Ranch SP",
+        "recreation_area": "Wilder Ranch SP",
+        "facility_id": "1104",
+        "recreation_area_id": "1236"
+    },
+    {
+        "facility_name": "Bullfrog Pond Campground",
+        "recreation_area": "Austin Creek SRA",
+        "facility_id": "1111",
+        "recreation_area_id": "1085"
+    },
+    {
+        "facility_name": "Rocky Point and Mono Loops (sites 1-37)",
+        "recreation_area": "Millerton Lake SRA",
+        "facility_id": "1119",
+        "recreation_area_id": "678"
+    },
+    {
+        "facility_name": "Fort Miller and Dumna Strands Loops (sites 38-84)",
+        "recreation_area": "Millerton Lake SRA",
+        "facility_id": "1120",
+        "recreation_area_id": "678"
+    },
+    {
+        "facility_name": "Valley Oak Loop (sites 85-90)",
+        "recreation_area": "Millerton Lake SRA",
+        "facility_id": "1121",
+        "recreation_area_id": "678"
+    },
+    {
+        "facility_name": "Deer Loop (sites 203-220, 283-317)",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "1122",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Campground",
+        "recreation_area": "Carnegie SVRA",
+        "facility_id": "1128",
+        "recreation_area_id": "1107"
+    },
+    {
+        "facility_name": "Beals Point Campground (sites 50-69)",
+        "recreation_area": "Folsom Lake SRA",
+        "facility_id": "1129",
+        "recreation_area_id": "643"
+    },
+    {
+        "facility_name": "Ocean Camp (sites 1-12)",
+        "recreation_area": "Limekiln SP",
+        "facility_id": "1130",
+        "recreation_area_id": "666"
+    },
+    {
+        "facility_name": "Corvina Beach Campground (sites 1-35)",
+        "recreation_area": "Salton Sea SRA",
+        "facility_id": "1131",
+        "recreation_area_id": "704"
+    },
+    {
+        "facility_name": "Oak Point Campground",
+        "recreation_area": "Fremont Peak SP",
+        "facility_id": "1132",
+        "recreation_area_id": "645"
+    },
+    {
+        "facility_name": "Crystal Springs Campground",
+        "recreation_area": "Ahjumawi Lava Springs SP",
+        "facility_id": "1937",
+        "recreation_area_id": "1074"
+    },
+    {
+        "facility_name": "Horr Pond Campground",
+        "recreation_area": "Ahjumawi Lava Springs SP",
+        "facility_id": "1938",
+        "recreation_area_id": "1074"
+    },
+    {
+        "facility_name": "Ja She Creek Campground",
+        "recreation_area": "Ahjumawi Lava Springs SP",
+        "facility_id": "1939",
+        "recreation_area_id": "1074"
+    },
+    {
+        "facility_name": "Trail Camp",
+        "recreation_area": "Andrew Molera SP",
+        "facility_id": "1940",
+        "recreation_area_id": "1077"
+    },
+    {
+        "facility_name": "Mannings Flat #1",
+        "recreation_area": "Austin Creek SRA",
+        "facility_id": "1941",
+        "recreation_area_id": "1085"
+    },
+    {
+        "facility_name": "Mannings Flat #2",
+        "recreation_area": "Austin Creek SRA",
+        "facility_id": "1942",
+        "recreation_area_id": "1085"
+    },
+    {
+        "facility_name": "Tom King",
+        "recreation_area": "Austin Creek SRA",
+        "facility_id": "1943",
+        "recreation_area_id": "1085"
+    },
+    {
+        "facility_name": "En Route Parking Lot",
+        "recreation_area": "Benicia SRA",
+        "facility_id": "1944",
+        "recreation_area_id": "1090"
+    },
+    {
+        "facility_name": "Alder Trail Camp Sites",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "1945",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Jay Camp Bike-In Sites",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "1947",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Jay Trail Camp",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "1948",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Lane Trail Camp Sites",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "1949",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Rancho Del Oso Horse Camp",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "1950",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Sunset Trail Camp Sites",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "1951",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Twin Redwoods Trail Camp",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "1952",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Enroute",
+        "recreation_area": "Castle Crags SP",
+        "facility_id": "1953",
+        "recreation_area_id": "624"
+    },
+    {
+        "facility_name": "Flume Environmental Camp",
+        "recreation_area": "Castle Crags SP",
+        "facility_id": "1954",
+        "recreation_area_id": "624"
+    },
+    {
+        "facility_name": "Lippencott Environmental Camp",
+        "recreation_area": "Castle Crags SP",
+        "facility_id": "1955",
+        "recreation_area_id": "624"
+    },
+    {
+        "facility_name": "Frog Flat",
+        "recreation_area": "Castle Rock SP",
+        "facility_id": "1956",
+        "recreation_area_id": "1111"
+    },
+    {
+        "facility_name": "Main Camp Site",
+        "recreation_area": "Castle Rock SP",
+        "facility_id": "1957",
+        "recreation_area_id": "1111"
+    },
+    {
+        "facility_name": "Waterman Gap Trail",
+        "recreation_area": "Castle Rock SP",
+        "facility_id": "1958",
+        "recreation_area_id": "1111"
+    },
+    {
+        "facility_name": "Colusa",
+        "recreation_area": "Colusa-Sacramento River SRA",
+        "facility_id": "1959",
+        "recreation_area_id": "632"
+    },
+    {
+        "facility_name": "Cedar Grove Volunteer Camp",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "1961",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "Merigan Volunteer Camp",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "1962",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "Mickey James Volunteer Camp",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "1963",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "Stonewall Mine Volunteer Camp",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "1964",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "En Route Parking Lot",
+        "recreation_area": "El Capitan SB",
+        "facility_id": "1965",
+        "recreation_area_id": "8"
+    },
+    {
+        "facility_name": "En Route Parking Lot",
+        "recreation_area": "Emma Wood SB",
+        "facility_id": "1966",
+        "recreation_area_id": "642"
+    },
+    {
+        "facility_name": "Averys Pond",
+        "recreation_area": "Folsom Lake SRA",
+        "facility_id": "1967",
+        "recreation_area_id": "643"
+    },
+    {
+        "facility_name": "Granite Bay",
+        "recreation_area": "Folsom Lake SRA",
+        "facility_id": "1968",
+        "recreation_area_id": "643"
+    },
+    {
+        "facility_name": "Reef Campground",
+        "recreation_area": "Fort Ross SHP",
+        "facility_id": "1969",
+        "recreation_area_id": "1126"
+    },
+    {
+        "facility_name": "ADA Camping/Lower Ranch",
+        "recreation_area": "Hollister Hills SVRA",
+        "facility_id": "1971",
+        "recreation_area_id": "1136"
+    },
+    {
+        "facility_name": "Hudner Ranch Primitive CG (4X4) Recreation",
+        "recreation_area": "Hollister Hills SVRA",
+        "facility_id": "1973",
+        "recreation_area_id": "1136"
+    },
+    {
+        "facility_name": "Walnut CG/Lower Ranch (MC & ATV ONLY)",
+        "recreation_area": "Hollister Hills SVRA",
+        "facility_id": "1976",
+        "recreation_area_id": "1136"
+    },
+    {
+        "facility_name": "Dry Lagoon E-Camp",
+        "recreation_area": "Humboldt Lagoons SP",
+        "facility_id": "1977",
+        "recreation_area_id": "1137"
+    },
+    {
+        "facility_name": "Stone Lagoon Boat-In Campground",
+        "recreation_area": "Humboldt Lagoons SP",
+        "facility_id": "1978",
+        "recreation_area_id": "1137"
+    },
+    {
+        "facility_name": "Johnson Trail Camp",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "1979",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Trail Camp Bull Creek",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "1980",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Trail Camp Grasshopper",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "1981",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Trail Camp Hansen Ridge",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "1982",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Trail Camp Whiskey Flat",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "1983",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Visitor Center Host Area",
+        "recreation_area": "Humboldt Redwoods SP",
+        "facility_id": "1984",
+        "recreation_area_id": "657"
+    },
+    {
+        "facility_name": "Aliklik Campground",
+        "recreation_area": "Hungry Valley SVRA",
+        "facility_id": "1985",
+        "recreation_area_id": "1138"
+    },
+    {
+        "facility_name": "ATV Campground",
+        "recreation_area": "Hungry Valley SVRA",
+        "facility_id": "1986",
+        "recreation_area_id": "1138"
+    },
+    {
+        "facility_name": "Circle Canyon Campground",
+        "recreation_area": "Hungry Valley SVRA",
+        "facility_id": "1987",
+        "recreation_area_id": "1138"
+    },
+    {
+        "facility_name": "Edison Campground",
+        "recreation_area": "Hungry Valley SVRA",
+        "facility_id": "1988",
+        "recreation_area_id": "1138"
+    },
+    {
+        "facility_name": "Honey Valley Group Camp",
+        "recreation_area": "Hungry Valley SVRA",
+        "facility_id": "1989",
+        "recreation_area_id": "1138"
+    },
+    {
+        "facility_name": "Lane Ranch Campground",
+        "recreation_area": "Hungry Valley SVRA",
+        "facility_id": "1990",
+        "recreation_area_id": "1138"
+    },
+    {
+        "facility_name": "Lower Scrub Oak Campground",
+        "recreation_area": "Hungry Valley SVRA",
+        "facility_id": "1991",
+        "recreation_area_id": "1138"
+    },
+    {
+        "facility_name": "Smith Forks Campground",
+        "recreation_area": "Hungry Valley SVRA",
+        "facility_id": "1992",
+        "recreation_area_id": "1138"
+    },
+    {
+        "facility_name": "Sterling Campground",
+        "recreation_area": "Hungry Valley SVRA",
+        "facility_id": "1993",
+        "recreation_area_id": "1138"
+    },
+    {
+        "facility_name": "Upper Scrub Oak Campground",
+        "recreation_area": "Hungry Valley SVRA",
+        "facility_id": "1994",
+        "recreation_area_id": "1138"
+    },
+    {
+        "facility_name": "Bloomer Knoll boat-in campground",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "1995",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Bloomer Point boat-in campground",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "1996",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Craig Saddle boat-in campground",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "1997",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Foreman Creek boat-in campground",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "1998",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Goat Ranch boat-in campground",
+        "recreation_area": "Lake Oroville SRA",
+        "facility_id": "1999",
+        "recreation_area_id": "662"
+    },
+    {
+        "facility_name": "Bernasconi Undeveloped Group Camp",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "2000",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Deer Loop (sites 318-353)",
+        "recreation_area": "Lake Perris SRA",
+        "facility_id": "2001",
+        "recreation_area_id": "663"
+    },
+    {
+        "facility_name": "Leo Carrillo Hike & Bike",
+        "recreation_area": "Leo Carrillo SP",
+        "facility_id": "2002",
+        "recreation_area_id": "665"
+    },
+    {
+        "facility_name": "Deer Meadow Group Camp",
+        "recreation_area": "Little Basin State Park",
+        "facility_id": "2003",
+        "recreation_area_id": "667"
+    },
+    {
+        "facility_name": "Manchester",
+        "recreation_area": "Manchester SP",
+        "facility_id": "2004",
+        "recreation_area_id": "671"
+    },
+    {
+        "facility_name": "Enroute",
+        "recreation_area": "Mcarthur-Burney Falls Memorial SP",
+        "facility_id": "2005",
+        "recreation_area_id": "674"
+    },
+    {
+        "facility_name": "Headwaters Camp",
+        "recreation_area": "Mcarthur-Burney Falls Memorial SP",
+        "facility_id": "2006",
+        "recreation_area_id": "674"
+    },
+    {
+        "facility_name": "Junction Campground",
+        "recreation_area": "Mount Diablo SP",
+        "facility_id": "2007",
+        "recreation_area_id": "683"
+    },
+    {
+        "facility_name": "Bootjack Campground 15-sites",
+        "recreation_area": "Mount Tamalpais SP",
+        "facility_id": "2008",
+        "recreation_area_id": "682"
+    },
+    {
+        "facility_name": "Pantoll Campgroup 16 Sites",
+        "recreation_area": "Mount Tamalpais SP",
+        "facility_id": "2009",
+        "recreation_area_id": "682"
+    },
+    {
+        "facility_name": "Little Round Valley",
+        "recreation_area": "Mt. San Jacinto SP",
+        "facility_id": "2010",
+        "recreation_area_id": "684"
+    },
+    {
+        "facility_name": "Round Valley",
+        "recreation_area": "Mt. San Jacinto SP",
+        "facility_id": "2011",
+        "recreation_area_id": "684"
+    },
+    {
+        "facility_name": "Strawberry Junction Campground",
+        "recreation_area": "Mt. San Jacinto SP",
+        "facility_id": "2012",
+        "recreation_area_id": "684"
+    },
+    {
+        "facility_name": "Tamarack Valley",
+        "recreation_area": "Mt. San Jacinto SP",
+        "facility_id": "2013",
+        "recreation_area_id": "684"
+    },
+    {
+        "facility_name": "Navarro Beach",
+        "recreation_area": "Navarro River Redwoods SP",
+        "facility_id": "2014",
+        "recreation_area_id": "1174"
+    },
+    {
+        "facility_name": "Paul M. Dimmick Campground",
+        "recreation_area": "Navarro River Redwoods SP",
+        "facility_id": "2015",
+        "recreation_area_id": "1174"
+    },
+    {
+        "facility_name": "Oceano Dunes SVRA",
+        "recreation_area": "Oceano Dunes SVRA",
+        "facility_id": "2016",
+        "recreation_area_id": "686"
+    },
+    {
+        "facility_name": "112 Primitive/Undeveloped Sites",
+        "recreation_area": "Ocotillo Wells SVRA",
+        "facility_id": "2017",
+        "recreation_area_id": "1175"
+    },
+    {
+        "facility_name": "Hike & Bike campground",
+        "recreation_area": "Sue-meg SP",
+        "facility_id": "2018",
+        "recreation_area_id": "688"
+    },
+    {
+        "facility_name": "Patricks Point SP Maintenance Yard",
+        "recreation_area": "Sue-meg SP",
+        "facility_id": "2019",
+        "recreation_area_id": "688"
+    },
+    {
+        "facility_name": "4-S Beach Boat-In Camp and Drive-In",
+        "recreation_area": "Picacho SRA",
+        "facility_id": "2021",
+        "recreation_area_id": "1181"
+    },
+    {
+        "facility_name": "Carrizo Boat-In Camp",
+        "recreation_area": "Picacho SRA",
+        "facility_id": "2022",
+        "recreation_area_id": "1181"
+    },
+    {
+        "facility_name": "Drive-In Group Site",
+        "recreation_area": "Picacho SRA",
+        "facility_id": "2023",
+        "recreation_area_id": "1181"
+    },
+    {
+        "facility_name": "Group Canoe Camp",
+        "recreation_area": "Picacho SRA",
+        "facility_id": "2024",
+        "recreation_area_id": "1181"
+    },
+    {
+        "facility_name": "Main Campground - 54 Primitive/Undeveloped sites",
+        "recreation_area": "Picacho SRA",
+        "facility_id": "2025",
+        "recreation_area_id": "1181"
+    },
+    {
+        "facility_name": "Outpost Boat-In Camp",
+        "recreation_area": "Picacho SRA",
+        "facility_id": "2026",
+        "recreation_area_id": "1181"
+    },
+    {
+        "facility_name": "Paddlewheel Boat-In Camp",
+        "recreation_area": "Picacho SRA",
+        "facility_id": "2027",
+        "recreation_area_id": "1181"
+    },
+    {
+        "facility_name": "Taylor Lake Boat-In Camp",
+        "recreation_area": "Picacho SRA",
+        "facility_id": "2028",
+        "recreation_area_id": "1181"
+    },
+    {
+        "facility_name": "Danielson Multi Use Area",
+        "recreation_area": "Point Mugu SP",
+        "facility_id": "2029",
+        "recreation_area_id": "694"
+    },
+    {
+        "facility_name": "Point Mugu-La Jolla Walk-In Camp",
+        "recreation_area": "Point Mugu SP",
+        "facility_id": "2030",
+        "recreation_area_id": "694"
+    },
+    {
+        "facility_name": "Thornhill Broome Campground",
+        "recreation_area": "Point Mugu SP",
+        "facility_id": "2031",
+        "recreation_area_id": "694"
+    },
+    {
+        "facility_name": "Hike and Bike Campsites",
+        "recreation_area": "Portola Redwoods SP",
+        "facility_id": "2032",
+        "recreation_area_id": "695"
+    },
+    {
+        "facility_name": "Madrone Enroute",
+        "recreation_area": "Portola Redwoods SP",
+        "facility_id": "2033",
+        "recreation_area_id": "695"
+    },
+    {
+        "facility_name": "Slate Creek Trail Camp Sites",
+        "recreation_area": "Portola Redwoods SP",
+        "facility_id": "2034",
+        "recreation_area_id": "695"
+    },
+    {
+        "facility_name": "Honeymoon Hogan",
+        "recreation_area": "Providence Mountains SRA",
+        "facility_id": "2035",
+        "recreation_area_id": "1192"
+    },
+    {
+        "facility_name": "Multi Family Dorm Room",
+        "recreation_area": "Providence Mountains SRA",
+        "facility_id": "2036",
+        "recreation_area_id": "1192"
+    },
+    {
+        "facility_name": "Park Campground",
+        "recreation_area": "Providence Mountains SRA",
+        "facility_id": "2037",
+        "recreation_area_id": "1192"
+    },
+    {
+        "facility_name": "Ricardo Campground",
+        "recreation_area": "Red Rock Canyon SP",
+        "facility_id": "2038",
+        "recreation_area_id": "1194"
+    },
+    {
+        "facility_name": "Richardson Grove Maintenance Yard",
+        "recreation_area": "Richardson Grove SP",
+        "facility_id": "2039",
+        "recreation_area_id": "700"
+    },
+    {
+        "facility_name": "50 Primitive/Undeveloped sites",
+        "recreation_area": "Saddleback Butte SP",
+        "facility_id": "2040",
+        "recreation_area_id": "702"
+    },
+    {
+        "facility_name": "Hike and Bike Campsites",
+        "recreation_area": "Salt Point SP",
+        "facility_id": "2041",
+        "recreation_area_id": "703"
+    },
+    {
+        "facility_name": "Overflow Camping",
+        "recreation_area": "Salt Point SP",
+        "facility_id": "2042",
+        "recreation_area_id": "703"
+    },
+    {
+        "facility_name": "Headquarters Hookup (sites 2-15)",
+        "recreation_area": "Salton Sea SRA",
+        "facility_id": "2043",
+        "recreation_area_id": "704"
+    },
+    {
+        "facility_name": "Grunion Run Group Camp",
+        "recreation_area": "San Elijo SB",
+        "facility_id": "2045",
+        "recreation_area_id": "709"
+    },
+    {
+        "facility_name": "Los Banos Creek  Campground",
+        "recreation_area": "San Luis Reservoir SRA",
+        "facility_id": "2046",
+        "recreation_area_id": "711"
+    },
+    {
+        "facility_name": "Medeiros Campground",
+        "recreation_area": "San Luis Reservoir SRA",
+        "facility_id": "2047",
+        "recreation_area_id": "711"
+    },
+    {
+        "facility_name": "Anderson Camp",
+        "recreation_area": "Sinkyone Wilderness SP",
+        "facility_id": "2049",
+        "recreation_area_id": "1212"
+    },
+    {
+        "facility_name": "Barn",
+        "recreation_area": "Sinkyone Wilderness SP",
+        "facility_id": "2050",
+        "recreation_area_id": "1212"
+    },
+    {
+        "facility_name": "Barnside Camps",
+        "recreation_area": "Sinkyone Wilderness SP",
+        "facility_id": "2051",
+        "recreation_area_id": "1212"
+    },
+    {
+        "facility_name": "Bear Harbor Camp",
+        "recreation_area": "Sinkyone Wilderness SP",
+        "facility_id": "2052",
+        "recreation_area_id": "1212"
+    },
+    {
+        "facility_name": "Jones Beach Camp",
+        "recreation_area": "Sinkyone Wilderness SP",
+        "facility_id": "2053",
+        "recreation_area_id": "1212"
+    },
+    {
+        "facility_name": "Little Jackass Creek Camp",
+        "recreation_area": "Sinkyone Wilderness SP",
+        "facility_id": "2054",
+        "recreation_area_id": "1212"
+    },
+    {
+        "facility_name": "Needle Rock Visitor Center Host",
+        "recreation_area": "Sinkyone Wilderness SP",
+        "facility_id": "2055",
+        "recreation_area_id": "1212"
+    },
+    {
+        "facility_name": "Orchard Camp",
+        "recreation_area": "Sinkyone Wilderness SP",
+        "facility_id": "2056",
+        "recreation_area_id": "1212"
+    },
+    {
+        "facility_name": "Railroad Camp",
+        "recreation_area": "Sinkyone Wilderness SP",
+        "facility_id": "2057",
+        "recreation_area_id": "1212"
+    },
+    {
+        "facility_name": "Streamside Camp",
+        "recreation_area": "Sinkyone Wilderness SP",
+        "facility_id": "2058",
+        "recreation_area_id": "1212"
+    },
+    {
+        "facility_name": "Usal Beach",
+        "recreation_area": "Sinkyone Wilderness SP",
+        "facility_id": "2059",
+        "recreation_area_id": "1212"
+    },
+    {
+        "facility_name": "Wheeler Camp",
+        "recreation_area": "Sinkyone Wilderness SP",
+        "facility_id": "2060",
+        "recreation_area_id": "1212"
+    },
+    {
+        "facility_name": "Bodega Dunes",
+        "recreation_area": "Sonoma Coast State Park",
+        "facility_id": "2061",
+        "recreation_area_id": "718"
+    },
+    {
+        "facility_name": "Pomo Canyon Environmental Camp",
+        "recreation_area": "Sonoma Coast State Park",
+        "facility_id": "2062",
+        "recreation_area_id": "718"
+    },
+    {
+        "facility_name": "Willow Creek Environmental Camp",
+        "recreation_area": "Sonoma Coast State Park",
+        "facility_id": "2063",
+        "recreation_area_id": "718"
+    },
+    {
+        "facility_name": "Enroute",
+        "recreation_area": "Sugar Pine Point SP",
+        "facility_id": "2064",
+        "recreation_area_id": "724"
+    },
+    {
+        "facility_name": "West Ridge Trail Camp",
+        "recreation_area": "The Forest Of Nisene Marks SP",
+        "facility_id": "2065",
+        "recreation_area_id": "1218"
+    },
+    {
+        "facility_name": "Musch Camp Hike-In, Bike-In & Equestrian Camp",
+        "recreation_area": "Topanga SP",
+        "facility_id": "2066",
+        "recreation_area_id": "1223"
+    },
+    {
+        "facility_name": "Enroute Campsites",
+        "recreation_area": "Van Damme SP",
+        "facility_id": "2067",
+        "recreation_area_id": "731"
+    },
+    {
+        "facility_name": "Westport Union Landing SB Howard Creek North",
+        "recreation_area": "Westport-Union Landing SB",
+        "facility_id": "2068",
+        "recreation_area_id": "1235"
+    },
+    {
+        "facility_name": "Westport Union Landing SB Howard Creek South",
+        "recreation_area": "Westport-Union Landing SB",
+        "facility_id": "2069",
+        "recreation_area_id": "1235"
+    },
+    {
+        "facility_name": "Westport-Union Landing SB \u2013 Abalone Point",
+        "recreation_area": "Westport-Union Landing SB",
+        "facility_id": "2070",
+        "recreation_area_id": "1235"
+    },
+    {
+        "facility_name": "Mineral Bar",
+        "recreation_area": "Auburn SRA",
+        "facility_id": "2086",
+        "recreation_area_id": "616"
+    },
+    {
+        "facility_name": "Ruck-a-chucky",
+        "recreation_area": "Auburn SRA",
+        "facility_id": "2087",
+        "recreation_area_id": "616"
+    },
+    {
+        "facility_name": "Day Use Lot 3",
+        "recreation_area": "Pfeiffer Big Sur SP",
+        "facility_id": "2092",
+        "recreation_area_id": "690"
+    },
+    {
+        "facility_name": "Day Use Lot 4",
+        "recreation_area": "Pfeiffer Big Sur SP",
+        "facility_id": "2093",
+        "recreation_area_id": "690"
+    },
+    {
+        "facility_name": "Mecca Beach Campground (sites 51-105)",
+        "recreation_area": "Salton Sea SRA",
+        "facility_id": "2094",
+        "recreation_area_id": "704"
+    },
+    {
+        "facility_name": "North Loop (Group site)",
+        "recreation_area": "South Carlsbad SB",
+        "facility_id": "2100",
+        "recreation_area_id": "720"
+    },
+    {
+        "facility_name": "Huckleberry Tent Cabins",
+        "recreation_area": "Big Basin Redwoods SP",
+        "facility_id": "2116",
+        "recreation_area_id": "3"
+    },
+    {
+        "facility_name": "Lower Ranch Campgrounds (MC & ATV ONLY)",
+        "recreation_area": "Hollister Hills SVRA",
+        "facility_id": "2118",
+        "recreation_area_id": "1136"
+    },
+    {
+        "facility_name": "Cottonwood Campground",
+        "recreation_area": "Hungry Valley SVRA",
+        "facility_id": "2119",
+        "recreation_area_id": "1138"
+    },
+    {
+        "facility_name": "Horse Camp",
+        "recreation_area": "Millerton Lake SRA",
+        "facility_id": "2120",
+        "recreation_area_id": "678"
+    },
+    {
+        "facility_name": "Kopta Canoe In",
+        "recreation_area": "Woodson Bridge SRA",
+        "facility_id": "2128",
+        "recreation_area_id": "732"
+    },
+    {
+        "facility_name": "San Mateo Group Site",
+        "recreation_area": "San Onofre SB",
+        "facility_id": "2136",
+        "recreation_area_id": "712"
+    },
+    {
+        "facility_name": "Butano Trail Camp",
+        "recreation_area": "Butano SP",
+        "facility_id": "2143",
+        "recreation_area_id": "622"
+    },
+    {
+        "facility_name": "Poverty Flat Hike-In Group Camp",
+        "recreation_area": "Henry W Coe SP",
+        "facility_id": "2147",
+        "recreation_area_id": "656"
+    },
+    {
+        "facility_name": "East Group Garrison Picnic Area",
+        "recreation_area": "Angel Island SP",
+        "facility_id": "2149",
+        "recreation_area_id": "614"
+    },
+    {
+        "facility_name": "Agate Cabin Area",
+        "recreation_area": "Sue-meg SP",
+        "facility_id": "2150",
+        "recreation_area_id": "688"
+    },
+    {
+        "facility_name": "Borrego Palm Canyon Group (G1-G5)",
+        "recreation_area": "Anza-Borrego Desert SP",
+        "facility_id": "2151",
+        "recreation_area_id": "2"
+    },
+    {
+        "facility_name": "Sunrise Point Campgrounds",
+        "recreation_area": "Candlestick Point SRA",
+        "facility_id": "2153",
+        "recreation_area_id": "1103"
+    },
+    {
+        "facility_name": "East Ridge Campground (sites 91-112)",
+        "recreation_area": "D.L. Bliss SP",
+        "facility_id": "2154",
+        "recreation_area_id": "637"
+    },
+    {
+        "facility_name": "North Garrison Group Camp",
+        "recreation_area": "Angel Island SP",
+        "facility_id": "2155",
+        "recreation_area_id": "614"
+    },
+    {
+        "facility_name": "Paso Picacho Cabins",
+        "recreation_area": "Cuyamaca Rancho SP",
+        "facility_id": "2156",
+        "recreation_area_id": "7"
+    },
+    {
+        "facility_name": "Deer Canyon",
+        "recreation_area": "Crystal Cove SP Moro Campground",
+        "facility_id": "2157",
+        "recreation_area_id": "635"
+    },
+    {
+        "facility_name": "Upper Moro Campground",
+        "recreation_area": "Crystal Cove SP Moro Campground",
+        "facility_id": "2158",
+        "recreation_area_id": "635"
+    },
+    {
+        "facility_name": "Lower Moro Campground",
+        "recreation_area": "Crystal Cove SP Moro Campground",
+        "facility_id": "2159",
+        "recreation_area_id": "635"
+    },
+    {
+        "facility_name": "Enroute Campsites",
+        "recreation_area": "Carpinteria SB",
+        "facility_id": "2162",
+        "recreation_area_id": "6"
+    },
+    {
+        "facility_name": "Weber Point Picnic Area",
+        "recreation_area": "China Camp SP",
+        "facility_id": "2169",
+        "recreation_area_id": "626"
+    },
+    {
+        "facility_name": "Hike/Bike Campsite",
+        "recreation_area": "Van Damme SP",
+        "facility_id": "2170",
+        "recreation_area_id": "731"
+    },
+    {
+        "facility_name": "Group Campground NORTH",
+        "recreation_area": "Mcarthur-Burney Falls Memorial SP",
+        "facility_id": "2171",
+        "recreation_area_id": "674"
+    },
+    {
+        "facility_name": "Group Campground SOUTH",
+        "recreation_area": "Mcarthur-Burney Falls Memorial SP",
+        "facility_id": "2172",
+        "recreation_area_id": "674"
+    },
+    {
+        "facility_name": "Hike/Bike Campsite",
+        "recreation_area": "Mackerricher SP",
+        "facility_id": "2173",
+        "recreation_area_id": "668"
+    },
+    {
+        "facility_name": "Hike/Bike Campsite",
+        "recreation_area": "Russian Gulch SP",
+        "facility_id": "2174",
+        "recreation_area_id": "701"
+    },
+    {
+        "facility_name": "Hike/Bike Campsite",
+        "recreation_area": "Gaviota SP",
+        "facility_id": "2175",
+        "recreation_area_id": "646"
+    },
+    {
+        "facility_name": "Hike/Bike Campsite",
+        "recreation_area": "El Capitan SB",
+        "facility_id": "2176",
+        "recreation_area_id": "8"
+    },
+    {
+        "facility_name": "Hike and Bike",
+        "recreation_area": "Refugio SB",
+        "facility_id": "2177",
+        "recreation_area_id": "699"
+    },
+    {
+        "facility_name": "Lookout Rock Picnic Area",
+        "recreation_area": "Sue-meg SP",
+        "facility_id": "2178",
+        "recreation_area_id": "688"
+    },
+    {
+        "facility_name": "Loafer Creek Glamping",
+        "recreation_area": "Lake Oroville SRA Loafer Creek Glamping",
+        "facility_id": "2179",
+        "recreation_area_id": "1258"
+    },
+    {
+        "facility_name": "Beals Point Campground Glamping",
+        "recreation_area": "Folsom Lake SRA Glamping",
+        "facility_id": "2181",
+        "recreation_area_id": "1260"
+    },
+    {
+        "facility_name": "Peninsula Campground Glamping",
+        "recreation_area": "Folsom Lake SRA Glamping",
+        "facility_id": "2182",
+        "recreation_area_id": "1260"
+    }
+]

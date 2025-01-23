@@ -1,8 +1,9 @@
 from contextlib import asynccontextmanager
 import datetime
-from camply.providers import RecreationDotGov # , ReserveCalifornia
+from camply.providers import ReserveCalifornia, RecreationDotGov
 from fastapi import BackgroundTasks, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+import json
 import logging
 from models import Campground, CreateScoutRequest, Scout
 from tasks import send_scout
@@ -10,7 +11,7 @@ import uuid
 
 logger = logging.getLogger(__name__)
 
-providers = [RecreationDotGov()] # , ReserveCalifornia()]
+providers = [ReserveCalifornia(), RecreationDotGov()]
 
 campgrounds: dict[str, Campground] = {}   # in-memory storage
 scouts: dict[uuid.UUID, Scout] = {}
@@ -18,9 +19,24 @@ scouts: dict[uuid.UUID, Scout] = {}
 # preloads campgrounds
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    for prov in providers:
-        response = prov.find_campgrounds(search_string="", state="CA")
-        campgrounds.update({str(r.facility_id): r for r in response}) # type: ignore
+    # with open("state.json") as f:
+    #     raw_cg = json.load(f)
+    with open('national.json') as f:
+        raw_cg = json.load(f)
+    
+    for cg in raw_cg:
+        try:
+            campgrounds[cg['facility_id']] = Campground(
+                facility_name=cg['facility_name'],
+                recreation_area=cg['recreation_area'],
+                facility_id=cg['facility_id'],
+                recreation_area_id=cg['recreation_area_id'],
+                map_id=None,
+                coordinates=None)
+        except Exception as e:
+            print(e)
+            print(cg)
+
     yield
 
 app = FastAPI(lifespan=lifespan)

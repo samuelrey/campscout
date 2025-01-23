@@ -1,0 +1,1100 @@
+[
+  {
+    "facility_name": "Live Oak South",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "234323",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "Frenchman",
+    "recreation_area": "Plumas National Forest, CA",
+    "facility_id": "232137",
+    "recreation_area_id": "1070"
+  },
+  {
+    "facility_name": "Boca Rest Campground",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "234115",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Big Silver Group",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "233768",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Black Mountain (San Bernardino)",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232020",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Rock Creek (Sierra National Forest, Ca)",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232818",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Cold Creek",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "232869",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Camp Three Campground",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "232889",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "Dirt Flat",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "233839",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Los Prietos",
+    "recreation_area": "Los Padres National Forest, CA",
+    "facility_id": "234001",
+    "recreation_area_id": "1067"
+  },
+  {
+    "facility_name": "Red Fir",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "232302",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Cedar Flat Group Campground",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "273816",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Agnew Horse Camp",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "232398",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Anacapa Island",
+    "recreation_area": "Channel Islands National Park, CA",
+    "facility_id": "232502",
+    "recreation_area_id": "2631"
+  },
+  {
+    "facility_name": "Tent Peg Group",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "234000",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Agnew Meadows Group Camp",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "231956",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Heart Bar Equestrian",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232057",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Council",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232031",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Upper Little Truckee",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "232908",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Crane Valley",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232909",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Ponderosa Cove Campground",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "233285",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Prosser Family",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "234210",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Van Vleck Bunkhouse",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "233104",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Spring Creek",
+    "recreation_area": "Plumas National Forest, CA",
+    "facility_id": "232829",
+    "recreation_area_id": "1070"
+  },
+  {
+    "facility_name": "Fairview Campground",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "232890",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "Pioneer Trail",
+    "recreation_area": "Stanislaus National Forest, CA",
+    "facility_id": "232293",
+    "recreation_area_id": "1076"
+  },
+  {
+    "facility_name": "Badger Flats Group",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232808",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Carter Meadows Horse Group",
+    "recreation_area": "Klamath National Forest, CA",
+    "facility_id": "234344",
+    "recreation_area_id": "1065"
+  },
+  {
+    "facility_name": "Paradise Cove",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "232792",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "Buttercup Group Camp",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "231967",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Bluff Mesa Group Camp",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "231965",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Camp Four And Half Cabin",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "234457",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "Grays Peak Group Camp",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "231970",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Pipi Campground",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "232262",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Mcgee Creek",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "232238",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Heart Bar Campground",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232295",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Dogwood",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232037",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Wild Horse Equestrian Family",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "233685",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Pumice Flat Group Camp",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "231957",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Saddlebag Lake Trailhead Group Camp",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "232422",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Panther Flat Campground",
+    "recreation_area": "Six Rivers National Forest, CA",
+    "facility_id": "232322",
+    "recreation_area_id": "1075"
+  },
+  {
+    "facility_name": "Silver Lake East- Eldorado",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "232263",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Hanna Flat",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232249",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Wyandotte A Campground",
+    "recreation_area": "Plumas National Forest, CA",
+    "facility_id": "251446",
+    "recreation_area_id": "1070"
+  },
+  {
+    "facility_name": "South Shore Campground",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "234111",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Warm Springs Rec Area",
+    "recreation_area": "Lake Sonoma, CA",
+    "facility_id": "233664",
+    "recreation_area_id": "482"
+  },
+  {
+    "facility_name": "Juniper Springs Group Camp",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "231972",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Ironwood Group Camp",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "231971",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "South Fork Group - Eldorado Nf (Ca)",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "233879",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "College",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232812",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Fashoda",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "234135",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Twin Lakes Campground",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "234329",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Granite Flat (California)",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "232883",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Nevada Beach Campground",
+    "recreation_area": "Lake Tahoe Basin Management Unit, CA",
+    "facility_id": "232768",
+    "recreation_area_id": "2025"
+  },
+  {
+    "facility_name": "Pioneer Point",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "232793",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "Big Meadows Cabin (Ca)",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "234458",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "Tanglewood Group Camp",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "231974",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Lost Claim",
+    "recreation_area": "Stanislaus National Forest, CA",
+    "facility_id": "234761",
+    "recreation_area_id": "1076"
+  },
+  {
+    "facility_name": "Dinkey Creek",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232136",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Stumpy Meadows",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "232107",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Curly Jack Campground",
+    "recreation_area": "Klamath National Forest, CA",
+    "facility_id": "234401",
+    "recreation_area_id": "1065"
+  },
+  {
+    "facility_name": "Oso Group",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "233681",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Lightning Tree",
+    "recreation_area": "Plumas National Forest, CA",
+    "facility_id": "232832",
+    "recreation_area_id": "1070"
+  },
+  {
+    "facility_name": "Cherry Valley",
+    "recreation_area": "Stanislaus National Forest, CA",
+    "facility_id": "234756",
+    "recreation_area_id": "1076"
+  },
+  {
+    "facility_name": "Upper Sage Flat",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "232242",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Mary Smith Campground",
+    "recreation_area": "Shasta-Trinity National Forest, CA",
+    "facility_id": "233344",
+    "recreation_area_id": "1073"
+  },
+  {
+    "facility_name": "Acorn Campground",
+    "recreation_area": "New Hogan Lake, CA",
+    "facility_id": "233683",
+    "recreation_area_id": "476"
+  },
+  {
+    "facility_name": "Emigrant Group",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "232859",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Long Meadow Group",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "232822",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "East Weaver Group Campground",
+    "recreation_area": "Shasta-Trinity National Forest, CA",
+    "facility_id": "273376",
+    "recreation_area_id": "1073"
+  },
+  {
+    "facility_name": "Jumbo Rocks Campground",
+    "recreation_area": "Joshua Tree National Park, CA",
+    "facility_id": "272300",
+    "recreation_area_id": "2782"
+  },
+  {
+    "facility_name": "Black Oak",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "232021",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Medicine Lake Recreation Area",
+    "recreation_area": "Modoc National Forest, CA",
+    "facility_id": "255303",
+    "recreation_area_id": "1069"
+  },
+  {
+    "facility_name": "Sarah Totten Campground",
+    "recreation_area": "Klamath National Forest, CA",
+    "facility_id": "234400",
+    "recreation_area_id": "1065"
+  },
+  {
+    "facility_name": "Observation Point Picnic Shelter (Ca)",
+    "recreation_area": "New Hogan Lake, CA",
+    "facility_id": "251550",
+    "recreation_area_id": "476"
+  },
+  {
+    "facility_name": "Bear Basin Lookout And Cabin",
+    "recreation_area": "Six Rivers National Forest, CA",
+    "facility_id": "234262",
+    "recreation_area_id": "1075"
+  },
+  {
+    "facility_name": "Princess",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "232782",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "Recreation Point",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232910",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Coy Flat",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "232893",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "Lobo Group",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232068",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Aspen Group (Inyo)",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "233101",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Hirz Bay Group 1",
+    "recreation_area": "Shasta-Trinity National Forest, CA",
+    "facility_id": "233096",
+    "recreation_area_id": "1073"
+  },
+  {
+    "facility_name": "North Shore (Ca)",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232296",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Stoney Group Shasta-Trinity",
+    "recreation_area": "Shasta-Trinity National Forest, CA",
+    "facility_id": "232362",
+    "recreation_area_id": "1073"
+  },
+  {
+    "facility_name": "Grizzly",
+    "recreation_area": "Plumas National Forest, CA",
+    "facility_id": "232833",
+    "recreation_area_id": "1070"
+  },
+  {
+    "facility_name": "Coon Creek Group Campground",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232030",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Valley Oak Recreation Area",
+    "recreation_area": "Stanislaus River Parks, CA",
+    "facility_id": "10029012",
+    "recreation_area_id": "477"
+  },
+  {
+    "facility_name": "Peltier Bridge Primitive Campground",
+    "recreation_area": "Whiskeytown National Recreation Area, CA",
+    "facility_id": "272248",
+    "recreation_area_id": "2977"
+  },
+  {
+    "facility_name": "Bridal Veil Group Area And Picnic Ground",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "251615",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Dry Gulch",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "233842",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Fallen Leaf Campground",
+    "recreation_area": "Lake Tahoe Basin Management Unit, CA",
+    "facility_id": "232769",
+    "recreation_area_id": "2025"
+  },
+  {
+    "facility_name": "Fish Creek (Ca)",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232820",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Deer Flat Boat In Campground",
+    "recreation_area": "New Hogan Lake, CA",
+    "facility_id": "270421",
+    "recreation_area_id": "476"
+  },
+  {
+    "facility_name": "Horse Campground",
+    "recreation_area": "Plumas National Forest, CA",
+    "facility_id": "233729",
+    "recreation_area_id": "1070"
+  },
+  {
+    "facility_name": "Observatory Campground",
+    "recreation_area": "Cleveland National Forest, CA",
+    "facility_id": "233300",
+    "recreation_area_id": "1062"
+  },
+  {
+    "facility_name": "Goose Meadows",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "232755",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Kinnikinnick",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232814",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "(Lake Alpine) Lodgepole Campground",
+    "recreation_area": "Stanislaus National Forest, CA",
+    "facility_id": "232343",
+    "recreation_area_id": "1076"
+  },
+  {
+    "facility_name": "Cedar Bluff",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232912",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Oak Knoll Campground",
+    "recreation_area": "New Hogan Lake, CA",
+    "facility_id": "233779",
+    "recreation_area_id": "476"
+  },
+  {
+    "facility_name": "William Kent Campground",
+    "recreation_area": "Lake Tahoe Basin Management Unit, CA",
+    "facility_id": "232874",
+    "recreation_area_id": "2025"
+  },
+  {
+    "facility_name": "Moore Creek",
+    "recreation_area": "Shasta-Trinity National Forest, CA",
+    "facility_id": "232763",
+    "recreation_area_id": "1073"
+  },
+  {
+    "facility_name": "Patrick Creek Campground",
+    "recreation_area": "Six Rivers National Forest, CA",
+    "facility_id": "232316",
+    "recreation_area_id": "1075"
+  },
+  {
+    "facility_name": "Crab Flats",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232386",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Lower Billy Creek",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232906",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Rock Creek Lake Group Camp (Inyo National Forest, Ca)",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "232239",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Horse Camp Primitive Campground",
+    "recreation_area": "Whiskeytown National Recreation Area, CA",
+    "facility_id": "272244",
+    "recreation_area_id": "2977"
+  },
+  {
+    "facility_name": "Cottonwood Creek",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "232871",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Sheep Camp Primitive Campground",
+    "recreation_area": "Whiskeytown National Recreation Area, CA",
+    "facility_id": "272243",
+    "recreation_area_id": "2977"
+  },
+  {
+    "facility_name": "Sage Hill",
+    "recreation_area": "Los Padres National Forest, CA",
+    "facility_id": "231960",
+    "recreation_area_id": "1067"
+  },
+  {
+    "facility_name": "Skyline",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232100",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Boca Spring",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "234116",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Oh Ridge",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "232269",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Ellery Creek",
+    "recreation_area": "Shasta-Trinity National Forest, CA",
+    "facility_id": "232761",
+    "recreation_area_id": "1073"
+  },
+  {
+    "facility_name": "Bandido Group Campground",
+    "recreation_area": "Angeles National Forest, CA",
+    "facility_id": "234555",
+    "recreation_area_id": "1061"
+  },
+  {
+    "facility_name": "Sunset-Union Valley",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "232083",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "French Camp",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "232395",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Big Pine Equestrian Group Campground",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "231964",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Burnt Rancheria",
+    "recreation_area": "Cleveland National Forest, CA",
+    "facility_id": "232278",
+    "recreation_area_id": "1062"
+  },
+  {
+    "facility_name": "Chilkoot",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232882",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Oak Shores Day Use Area (Ca)",
+    "recreation_area": "Lake Berryessa, CA",
+    "facility_id": "250000",
+    "recreation_area_id": "17"
+  },
+  {
+    "facility_name": "Dorabelle Campground",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232821",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Circle X Ranch Group Campground",
+    "recreation_area": "Santa Monica Mountains National Recreation Area, CA",
+    "facility_id": "233381",
+    "recreation_area_id": "2923"
+  },
+  {
+    "facility_name": "Sandy Flat",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "233182",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "Catavee",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232811",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Silver Creek-Truckee",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "232884",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Dekkas Rock",
+    "recreation_area": "Shasta-Trinity National Forest, CA",
+    "facility_id": "232754",
+    "recreation_area_id": "1073"
+  },
+  {
+    "facility_name": "Bear River Group Campground (Eldorado National Forest, Ca)",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "234172",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Serrano",
+    "recreation_area": "San Bernardino National Forest,",
+    "facility_id": "232250",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Grassy Flat Campground",
+    "recreation_area": "Six Rivers National Forest, CA",
+    "facility_id": "232245",
+    "recreation_area_id": "1075"
+  },
+  {
+    "facility_name": "Paha",
+    "recreation_area": "Humboldt-Toiyabe National Forest Headquarters, CA",
+    "facility_id": "232079",
+    "recreation_area_id": "1029"
+  },
+  {
+    "facility_name": "Gray Pine Group Campground",
+    "recreation_area": "Mendocino National Forest, CA",
+    "facility_id": "233162",
+    "recreation_area_id": "1068"
+  },
+  {
+    "facility_name": "Mammoth Pool",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232817",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Oak Bottom Campground",
+    "recreation_area": "Six Rivers National Forest, CA",
+    "facility_id": "234608",
+    "recreation_area_id": "1075"
+  },
+  {
+    "facility_name": "Spring Cove",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232801",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Middle Meadows",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "231953",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Furnace Creek Campground",
+    "recreation_area": "Death Valley National Park, CA",
+    "facility_id": "232496",
+    "recreation_area_id": "2662"
+  },
+  {
+    "facility_name": "Boulder Group Camp",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "231966",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Mono Hot Springs",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232805",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Wishon Cabin",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "234324",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "Summerdale Campground",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "233837",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Upper Billy Creek Cg",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232810",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Live Oak",
+    "recreation_area": "Sequoia National Forest, CA",
+    "facility_id": "232790",
+    "recreation_area_id": "1072"
+  },
+  {
+    "facility_name": "Shady Cove Group Campground",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "233952",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Meadow Group Campground",
+    "recreation_area": "Angeles National Forest, CA",
+    "facility_id": "233366",
+    "recreation_area_id": "1061"
+  },
+  {
+    "facility_name": "Logger Campground",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "232858",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Silver Lake Campground June Lake (Ca)",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "234330",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Forks Campground (Sierra)",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232878",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Hallsted",
+    "recreation_area": "Plumas National Forest, CA",
+    "facility_id": "232265",
+    "recreation_area_id": "1070"
+  },
+  {
+    "facility_name": "Green Spot Equestrian Group Camp",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232351",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Kit Carson Campground",
+    "recreation_area": "Humboldt-Toiyabe National Forest Headquarters, CA",
+    "facility_id": "234739",
+    "recreation_area_id": "1029"
+  },
+  {
+    "facility_name": "Crane Flat Campground",
+    "recreation_area": "Yosemite National Park, CA",
+    "facility_id": "232452",
+    "recreation_area_id": "2991"
+  },
+  {
+    "facility_name": "Santa Cruz Del Norte Backcountry",
+    "recreation_area": "Channel Islands National Park, CA",
+    "facility_id": "232499",
+    "recreation_area_id": "2631"
+  },
+  {
+    "facility_name": "Boulder Basin",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232022",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Deer Creek",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232813",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Grasshopper Flat",
+    "recreation_area": "Plumas National Forest, CA",
+    "facility_id": "232830",
+    "recreation_area_id": "1070"
+  },
+  {
+    "facility_name": "Texas Flats",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232879",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Coulter Group Campground",
+    "recreation_area": "Angeles National Forest, CA",
+    "facility_id": "234554",
+    "recreation_area_id": "1061"
+  },
+  {
+    "facility_name": "Pines Group Stanislaus",
+    "recreation_area": "Stanislaus National Forest, CA",
+    "facility_id": "233775",
+    "recreation_area_id": "1076"
+  },
+  {
+    "facility_name": "Little Lasier Meadows Campground",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "233130",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Fawn",
+    "recreation_area": "Shasta-Trinity National Forest, CA",
+    "facility_id": "232361",
+    "recreation_area_id": "1073"
+  },
+  {
+    "facility_name": "Lupine",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232802",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Green Valley",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "232054",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Prosser Ranch Group",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "231977",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Camp 4 Group Campground",
+    "recreation_area": "Shasta-Trinity National Forest, CA",
+    "facility_id": "233256",
+    "recreation_area_id": "1073"
+  },
+  {
+    "facility_name": "Crestline Picnic Ground",
+    "recreation_area": "Cleveland National Forest, CA",
+    "facility_id": "231949",
+    "recreation_area_id": "1062"
+  },
+  {
+    "facility_name": "Lakeside (Truckee)",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "234117",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Wishon Bass Lake",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232911",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Santa Rosa Island Backcountry Beach Camping",
+    "recreation_area": "Channel Islands National Park, CA",
+    "facility_id": "261700",
+    "recreation_area_id": "2631"
+  },
+  {
+    "facility_name": "Convict Lake Campground",
+    "recreation_area": "Inyo National Forest, CA",
+    "facility_id": "234311",
+    "recreation_area_id": "1064"
+  },
+  {
+    "facility_name": "Kelty Meadow",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232880",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Indian Scotty Group Site",
+    "recreation_area": "Klamath National Forest, CA",
+    "facility_id": "234349",
+    "recreation_area_id": "1065"
+  },
+  {
+    "facility_name": "Jackass Meadow",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232803",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Deer Group Camp",
+    "recreation_area": "San Bernardino National Forest, CA",
+    "facility_id": "231968",
+    "recreation_area_id": "1071"
+  },
+  {
+    "facility_name": "Lower Little Truckee",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "232907",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Capps Crossing",
+    "recreation_area": "Eldorado National Forest, CA",
+    "facility_id": "233981",
+    "recreation_area_id": "1063"
+  },
+  {
+    "facility_name": "Santa Rosa Island",
+    "recreation_area": "Channel Islands National Park, CA",
+    "facility_id": "232497",
+    "recreation_area_id": "2631"
+  },
+  {
+    "facility_name": "Fish Lake Campground",
+    "recreation_area": "Six Rivers National Forest, CA",
+    "facility_id": "234691",
+    "recreation_area_id": "1075"
+  },
+  {
+    "facility_name": "Boca Campground",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "234114",
+    "recreation_area_id": "1077"
+  },
+  {
+    "facility_name": "Coyote Point",
+    "recreation_area": "New Hogan Lake, CA",
+    "facility_id": "233754",
+    "recreation_area_id": "476"
+  },
+  {
+    "facility_name": "Mountain Oak",
+    "recreation_area": "Angeles National Forest, CA",
+    "facility_id": "233733",
+    "recreation_area_id": "1061"
+  },
+  {
+    "facility_name": "Rancheria",
+    "recreation_area": "Sierra National Forest, CA",
+    "facility_id": "232815",
+    "recreation_area_id": "1074"
+  },
+  {
+    "facility_name": "Boyington Mill",
+    "recreation_area": "Tahoe National Forest, CA",
+    "facility_id": "234113",
+    "recreation_area_id": "1077"
+  }
+]

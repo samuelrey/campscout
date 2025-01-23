@@ -1,6 +1,6 @@
 from camply.containers import SearchWindow
 from camply.notifications import AppriseNotifications
-from camply.search import SearchRecreationDotGov
+from camply.search import SearchRecreationDotGov # type: ignore
 from models import Scout
 
 def send_scout(scout: Scout):
@@ -16,4 +16,4 @@ def send_scout(scout: Scout):
 
     matches = search_provider.get_matching_campsites(
         continuous=True,
-        notification_provider=[notification_provider])
+        notification_provider=[notification_provider]) # type: ignore

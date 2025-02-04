@@ -19,9 +19,7 @@ scouts: dict[uuid.UUID, Scout] = {}
 # preloads campgrounds
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # with open("state.json") as f:
-    #     raw_cg = json.load(f)
-    with open('national.json') as f:
+    with open('state.json') as f:
         raw_cg = json.load(f)
     
     for cg in raw_cg:

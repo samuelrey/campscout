@@ -4,12 +4,14 @@ import { Alert, Button, CircularProgress } from "@mui/material";
 import { getCampgrounds, createCampscout } from "../services/campscout";
 import CampgroundSelect from "./CampgroundSelect";
 import DaterangeSelect from "./DateRangeSelect";
+import RecreationAreaSelect from "./RecreationAreaSelect";
 
 const today = dayjs();
 
 const SearchForm = () => {
     const [campgrounds, setCampgrounds] = useState([]);
     const [selectedCampground, setSelectedCampground] = useState("");
+    const [selectedRecreationArea, setSelectedRecreationArea] = useState([]);
     const [daterange, setDaterange] = useState({
         startDate: today,
         endDate: today.add(1, "day"),
@@ -17,6 +19,7 @@ const SearchForm = () => {
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(true);
 
+    const recreationAreas = [...new Set(campgrounds.map(cg => cg.recreation_area))];
     useEffect(() => {
         const fetchCampgrounds = async () => {
             try {
@@ -31,6 +34,10 @@ const SearchForm = () => {
         };
         fetchCampgrounds();
     }, []);
+
+    const handleSelectRecreationArea = (recreationArea) => {
+        setSelectedRecreationArea(recreationArea);
+    }
 
     const handleSelectCampground = (campground) => {
         setSelectedCampground(campground);
@@ -57,7 +64,7 @@ const SearchForm = () => {
         }
     };
 
-    if (loading && !campgrounds) {
+    if (loading && !campgrounds && !recreationAreas) {
         return <CircularProgress />;
     }
 
@@ -65,6 +72,7 @@ const SearchForm = () => {
         <form onSubmit={handleSubmit}>
             {error !== null && <Alert severity="error">{error}</Alert>}
             {loading && <CircularProgress />}
+            <RecreationAreaSelect recreationAreas={recreationAreas} onSelectRecreationArea={handleSelectRecreationArea} />
             <CampgroundSelect
                 campgrounds={campgrounds}
                 onSelectCampground={handleSelectCampground}

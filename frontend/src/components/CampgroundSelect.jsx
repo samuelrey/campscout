@@ -15,8 +15,8 @@ const CampgroundSelect = ({ campgrounds, onSelectCampground }) => {
         return 1;
     });
 
-    const handleChange = (campground) => {
-        onSelectCampground(campground);
+    const handleChange = (option) => {
+        onSelectCampground(option.label);
     };
 
     return (

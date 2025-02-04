@@ -15,8 +15,8 @@ const RecreationAreaSelect = ({ recreationAreas, onSelectRecreationArea }) => {
         return 1;
     });
 
-    const handleChange = (recreationArea) => {
-        onSelectRecreationArea(recreationArea);
+    const handleChange = (option) => {
+        onSelectRecreationArea(option.label);
     };
 
     return (

@@ -11,7 +11,7 @@ const today = dayjs();
 const SearchForm = () => {
     const [campgrounds, setCampgrounds] = useState([]);
     const [selectedCampground, setSelectedCampground] = useState("");
-    const [selectedRecreationArea, setSelectedRecreationArea] = useState([]);
+    const [selectedRecreationArea, setSelectedRecreationArea] = useState("");
     const [daterange, setDaterange] = useState({
         startDate: today,
         endDate: today.add(1, "day"),
@@ -20,6 +20,7 @@ const SearchForm = () => {
     const [loading, setLoading] = useState(true);
 
     const recreationAreas = [...new Set(campgrounds.map(cg => cg.recreation_area))];
+    const visibleCampgrounds = getFilteredCampgrounds(campgrounds, selectedRecreationArea);
     useEffect(() => {
         const fetchCampgrounds = async () => {
             try {
@@ -74,7 +75,7 @@ const SearchForm = () => {
             {loading && <CircularProgress />}
             <RecreationAreaSelect recreationAreas={recreationAreas} onSelectRecreationArea={handleSelectRecreationArea} />
             <CampgroundSelect
-                campgrounds={campgrounds}
+                campgrounds={visibleCampgrounds}
                 onSelectCampground={handleSelectCampground}
             />
             <DaterangeSelect
@@ -88,5 +89,13 @@ const SearchForm = () => {
         </form>
     );
 };
+
+const getFilteredCampgrounds = (campgrounds, recreationArea) => {
+    if (!recreationArea) {
+        return campgrounds;
+    }
+
+    return campgrounds.filter(cg => cg.recreation_area === recreationArea);
+}
 
 export default SearchForm;

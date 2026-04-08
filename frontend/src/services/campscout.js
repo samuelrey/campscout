@@ -1,4 +1,4 @@
-const campscoutUrl = "http://localhost:8000"
+const campscoutUrl = process.env.REACT_APP_API_URL
 
 export const getCampgrounds = async () => {
     const preparedUrl = `${campscoutUrl}/campground`

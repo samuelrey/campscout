@@ -1,13 +1,17 @@
 from contextlib import asynccontextmanager
 import datetime
 from camply.providers import ReserveCalifornia, RecreationDotGov
+from dotenv import load_dotenv
 from fastapi import BackgroundTasks, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import json
 import logging
 from models import Campground, CreateScoutRequest, Scout
+import os
 from tasks import send_scout
 import uuid
+
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 
@@ -40,7 +44,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 
 origins = [
-    "http://localhost:3000", # make env variable
+    os.environ["CAMPSCOUT_CORS_ORIGIN"],
 ]
 
 app.add_middleware(

@@ -72,7 +72,7 @@ def get_campgrounds():
 @app.post("/scout")
 async def add_scout(request: CreateScoutRequest, background_tasks: BackgroundTasks):
     logger.info(f"Add Scout with the following request: {request}")
-    campground = campgrounds[request.campground_id]
+    campground = campgrounds.get(request.campground_id)
     if campground is None:
         raise HTTPException(status_code=404, detail="Campground not found.")
     

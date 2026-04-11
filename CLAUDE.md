@@ -51,9 +51,16 @@ npm start
 
 - `CampgroundSelect.jsx:19` — `handleChange` passes `option.label` (the name string) to the parent, but `SearchForm.jsx` uses `selectedCampground.id` when calling the API. This is a bug: campground ID will be undefined.
 - No persistence — scouts are lost on backend restart.
-- `tasks.py` uses `SearchRecreationDotGov` hardcoded; Reserve California provider is imported in `main.py` but unused in scouts.
+- `tasks.py` uses `SearchRecreationDotGov` hardcoded; `state.json` contains Reserve California campgrounds (CA State Parks), so the correct provider is `SearchReserveCalifornia`. Its signature is `SearchReserveCalifornia(search_window, recreation_area: List[int], campgrounds: List[str])` — campground IDs stay as strings, not ints.
+- Reserve California migrated off `calirdr.usedirect.com` to `california-rdr.prod.cali.rd12.recreation-management.tylerapp.com`. camply 0.34.1+ has this URL; older versions will get DNS 0.0.0.0.
 - No way to cancel/delete a running scout from the UI (delete endpoint exists in the API but isn't wired up).
 - CORS origin is hardcoded to `localhost:3000`.
+
+## Agent guidance
+
+- **Do not use orchestration (sub-agents) for debugging tasks.** Debugging is sequential and context-dependent — sub-agents start cold and lose the context that makes diagnosis possible. Single agent, step by step.
+- **Read before touching.** For any provider/library change: check the actual data (`state.json`), read the library's `__init__` signature, confirm the API is reachable before editing code.
+- **Check both sides of a dependency.** Adding an import means checking `package.json` / `requirements.txt`. Adding a package means checking for conflicts with pinned versions.
 
 ## Engineering norms
 

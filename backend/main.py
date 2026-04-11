@@ -9,6 +9,7 @@ import logging
 from models import Campground, CreateScoutRequest, Scout
 import os
 from tasks import send_scout
+import threading
 import uuid
 
 load_dotenv()
@@ -19,6 +20,7 @@ providers = [ReserveCalifornia(), RecreationDotGov()]
 
 campgrounds: dict[str, Campground] = {}   # in-memory storage
 scouts: dict[uuid.UUID, Scout] = {}
+stop_events: dict[uuid.UUID, threading.Event] = {}
 
 # preloads campgrounds
 @asynccontextmanager
@@ -84,7 +86,9 @@ async def add_scout(request: CreateScoutRequest, background_tasks: BackgroundTas
         end_date=request.end_date,
         created_at=datetime.datetime.now())
     
-    background_tasks.add_task(send_scout, scout)
+    stop_event = threading.Event()
+    stop_events[scout.id] = stop_event
+    background_tasks.add_task(send_scout, scout, stop_event)
 
     scouts[scout.id] = scout
 
@@ -104,4 +108,6 @@ def get_scouts():
 def delete_scout(id: uuid.UUID):
     if id not in scouts:
         raise HTTPException(status_code=404, detail="Scout not found.")
+    stop_events.pop(id).set()
+    del scouts[id]
     return {"result": f"Scout {id} deleted."}

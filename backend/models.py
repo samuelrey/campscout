@@ -1,5 +1,5 @@
 from datetime import datetime
-from typing import Optional
+from typing import Literal, Optional
 from pydantic import BaseModel
 import uuid
 
@@ -23,3 +23,4 @@ class Scout(BaseModel):
     start_date: datetime
     end_date: datetime
     created_at: datetime
+    status: Literal["running", "found", "stopped", "error"] = "running"

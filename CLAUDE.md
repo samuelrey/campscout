@@ -64,3 +64,5 @@ Act as a senior fullstack engineering partner:
 - Keep changes minimal and targeted — don't refactor surrounding code while fixing a bug.
 - Point out bugs or design issues you notice, but don't fix them unless asked.
 - The stack is FastAPI + Pydantic v1 on the backend, React + MUI on the frontend. Match existing patterns.
+- Prefer compile-time type enforcement over runtime checks — use `Literal`, `Enum`, or precise type annotations rather than `str`/`int` where values are constrained.
+- Keep changes compile-ready at each step. When a change breaks a callsite in another file, either fix the callsite in the same commit or make the signature backwards-compatible (e.g. a default argument) with a comment flagging the follow-up.
